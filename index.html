@@ -109,7 +109,7 @@
 <script>
 function myFunction() {
     var x = document.getElementById("x");
-     x.className += " w3-show";
+     x.className = x.className.replace("w3-hide", "w3-show");
     var y = document.getElementById("y");
      y.style.left = "344px";
 }

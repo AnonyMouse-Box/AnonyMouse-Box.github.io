@@ -24,8 +24,11 @@
     <a href="#" class="w3-btn w3-hover-blue w3-border-0 w3-display-bottomleft" style="left:109px; padding:6.75px 10px;">
      <i class="fa fa-home" style="font-size:1.6em;"></i>
     </a>
-    <input id="x" type="text" class="w3-input w3-display-bottomleft w3-hide" style="height:31.5px; width:200px; left:144px; padding:0px;" placeholder="Search Website">
-    <a id="y" class="w3-btn w3-hover-blue w3-border-0 w3-display-bottomleft" onclick="myFunction()" style="left:144px; padding:6.75px 10px;">
+    <a id="x" class="w3-btn w3-hover-red w3-border-0 w3-display-bottomleft w3-hide" onclick="myFunctionR()" style="left:144px; padding:6.75px 10px;">
+     <i class="fa fa-close" style="font-size:1.6em;"></i>
+    </a>
+    <input id="x" type="text" class="w3-input w3-display-bottomleft w3-bottombar w3-border-black w3-hide" style="height:31.5px; width:200px; left:179px; padding:0px;" placeholder="Search Website">
+    <a id="y" class="w3-btn w3-hover-blue w3-border-0 w3-display-bottomleft" onclick="myFunction()" style="left:179px; padding:6.75px 10px;">
      <i class="fa fa-search" style="font-size:1.6em;"></i>
     </a>
    </span>
@@ -111,7 +114,8 @@ function myFunction() {
     var x = document.getElementById("x");
      x.className = x.className.replace("w3-hide", "w3-show");
     var y = document.getElementById("y");
-     y.style.left = "344px";
+     y.style.left = "379px";
+     y.hrefName += "#";
 }
 </script>
  </body>

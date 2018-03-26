@@ -24,11 +24,11 @@
     <a href="#" class="w3-btn w3-hover-blue w3-border-0 w3-display-bottomleft" style="left:109px; padding:6.75px 10px;">
      <i class="fa fa-home" style="font-size:1.6em;"></i>
     </a>
-    <a id="x" class="w3-btn w3-hover-red w3-border-0 w3-display-bottomleft w3-hide" onclick="myFunctionR()" style="left:144px; padding:6.75px 10px;">
+    <a id="x" class="w3-btn w3-hover-red w3-border-0 w3-display-bottomleft w3-hide" onmouseup="myFunctionR()" style="left:144px; padding:6.75px 10px;">
      <i class="fa fa-close" style="font-size:1.6em;"></i>
     </a>
     <input id="y" type="text" class="w3-input w3-display-bottomleft w3-border-black w3-hide" style="height:31.5px; width:200px; left:177px; padding:10px;" placeholder="Search Website">
-    <a id="z" class="w3-btn w3-hover-blue w3-border-0 w3-display-bottomleft" onclick="myFunction()" style="left:144px; padding:6.75px 10px;">
+    <a id="z" class="w3-btn w3-hover-blue w3-border-0 w3-display-bottomleft" onmouseup="myFunction()" style="left:144px; padding:6.75px 10px;">
      <i class="fa fa-search" style="font-size:1.6em;"></i>
     </a>
    </span>
@@ -126,7 +126,7 @@ function myFunctionR() {
      y.className = y.className.replace("w3-show", "w3-hide");
     var z = document.getElementById("z");
      z.style.left = "144px";
-     z.hrefName -= "#";
+     z.setAttribute("href", "");
 }
 </script>
  </body>

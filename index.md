@@ -5,7 +5,7 @@ This page is powered by Jekyll and the GitHub repository, it allows me to add us
 * [bootstrap test page](http://github.hogwash.ga/bootstrap)
 
 
-_Blog Posts_
+**Blog Posts**
 <ul>
   {% for post in site.posts %}
     <li>

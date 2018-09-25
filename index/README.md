@@ -1,1 +1,1 @@
-A  folder to dump testing HTML files in.
+A  folder to dump testing webpage files in.

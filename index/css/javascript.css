@@ -1,5 +1,8 @@
 body {
     background: url("../misc/DSC_0095.JPG") no-repeat fixed center;
     background-size: 100%;
-    background-color: hsla(50%,50%, 50%, 50%);
+}
+
+img {
+    opacity: 0.5;
 }

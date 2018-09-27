@@ -19,6 +19,6 @@ p {
 }
 
 @keyframes mymove {
-    from {left: -50px;}
+    from {left: -100px;}
     to {left: 2000px;}
 }

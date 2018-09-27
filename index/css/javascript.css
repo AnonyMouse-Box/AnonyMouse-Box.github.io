@@ -13,7 +13,7 @@ p {
     position: relative;
 }
 
-.animation {
+.animate {
     position: relative;
     animation: mymove 5s infinite;
 }

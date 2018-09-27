@@ -24,6 +24,6 @@ p {
 }
 
 @keyframes revmove {
-    from {left: -100px;}
-    to {left: 1800px;}
+    from {left: 1800px;}
+    to {left: -100px;}
 }

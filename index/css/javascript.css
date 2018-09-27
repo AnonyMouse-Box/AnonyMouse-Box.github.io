@@ -15,8 +15,8 @@ p {
 
 .animate {
     position: relative;
-    animation-delay: 5s;
     animation: mymove 5s 2;
+    animation-delay: 5s;
     animation-direction: alternate;
 }
 

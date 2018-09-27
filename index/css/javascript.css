@@ -20,5 +20,5 @@ p {
 
 @keyframes mymove {
     from {left: -50px;}
-    to {right: 50px;}
+    to {left: 2000px;}
 }

@@ -14,5 +14,6 @@ p {
 }
 
 .animation {
+    position: relative;
     animation: mymove 5s infinite;
 }

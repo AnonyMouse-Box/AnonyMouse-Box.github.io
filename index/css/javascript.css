@@ -15,6 +15,7 @@ p {
 
 .animate {
     position: relative;
+    left: -100px;
     animation: mymove 5s 2;
     animation-delay: 5s;
     animation-direction: alternate;
@@ -22,5 +23,5 @@ p {
 
 @keyframes mymove {
     from {left: -100px;}
-    to {left: 1800px;}
+    to {left: 1750px;}
 }

@@ -15,10 +15,15 @@ p {
 
 .animate {
     position: relative;
-    animation: mymove 5s infinite;
+    animation: mymove 5s 1, revmove 5s 1;
 }
 
 @keyframes mymove {
     from {left: -100px;}
-    to {left: 1900px;}
+    to {left: 1800px;}
+}
+
+@keyframes revmove {
+    from {left: -100px;}
+    to {left: 1800px;}
 }

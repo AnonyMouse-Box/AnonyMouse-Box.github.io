@@ -15,15 +15,12 @@ p {
 
 .animate {
     position: relative;
-    animation: mymove 5s 1, revmove 5s 1;
+    animation-delay: 5s;
+    animation: mymove 5s 1;
+    animation-direction: alternate;
 }
 
 @keyframes mymove {
     from {left: -100px;}
     to {left: 1800px;}
-}
-
-@keyframes revmove {
-    from {left: 1800px;}
-    to {left: -100px;}
 }

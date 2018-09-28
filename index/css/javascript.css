@@ -19,7 +19,6 @@ p {
 }
 
 .animate {
-
     animation: mymove 5s 2;
     animation-delay: 5s;
     animation-direction: alternate;

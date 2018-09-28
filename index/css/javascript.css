@@ -13,9 +13,13 @@ p {
     position: relative;
 }
 
-.animate {
+.circle {    
     position: relative;
     left: -100px;
+}
+
+.animate {
+
     animation: mymove 5s 2;
     animation-delay: 5s;
     animation-direction: alternate;

@@ -1,3 +1,5 @@
+var circle = document.getElementsByClassName('circle')[1]
+
 const progress = (id) => {
   if(document.getElementById(id).value === 100){
     window.alert('Complete!');

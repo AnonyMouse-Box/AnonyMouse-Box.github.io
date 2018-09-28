@@ -1,4 +1,4 @@
-var circle = document.getElementsByClassName('circle')[1]
+var circle = document.getElementsByClassName('circle')
 
 const progress = (id) => {
   if(document.getElementById(id).value === 100){

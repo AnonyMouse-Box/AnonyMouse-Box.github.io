@@ -6,6 +6,7 @@ This page is powered by Jekyll and the GitHub repository, it allows me to add us
 * [bootstrap test page](http://github.hogwash.ga/index/html/bootstrap)
 * [javascript test page](http://github.hogwash.ga/index/html/javascript)
 * [tiddlywiki test page](http://github.hogwash.ga/index/html/tiddlywiki)
+* [generic test page](http://github.hogwash.ga/index/html/test)
 
 
 **Blog Posts**

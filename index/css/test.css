@@ -4,7 +4,7 @@
     background: url("../misc/DSC_0095.JPG") no-repeat fixed center;
     background-size: 100%;
     opacity: 0.4;
-    position: absolute;
+    position: fixed;
     top: 0rem;
     left: 0rem;
     z-index: -1;
@@ -13,7 +13,6 @@
 .content {
   position: absolute;
   top: 50px;
-  background-color: transparent;
   z-index: 0;
 }
 

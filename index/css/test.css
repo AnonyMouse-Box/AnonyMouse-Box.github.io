@@ -1,9 +1,14 @@
 nav {
   background-color: #0d0d0d;
   color: #f2f2e2;
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0rem;
   left: 0rem;
   height: 50px;
+}
+
+.content {
+  position: absoulute;
+  top: 50px;
 }

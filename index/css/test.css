@@ -7,11 +7,13 @@
     position: absolute;
     top: 0rem;
     left: 0rem;
+    z-index: -1;
 }
 
 .content {
   position: absolute;
   top: 50px;
+  z-index: 0;
 }
 
 nav {
@@ -22,4 +24,5 @@ nav {
   top: 0rem;
   left: 0rem;
   height: 50px;
+  z-index: 1;
 }

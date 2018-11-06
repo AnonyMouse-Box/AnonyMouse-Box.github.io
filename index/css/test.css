@@ -16,7 +16,7 @@
 
 #quote {
     position: fixed;
-    text-align: center;
+    align-content: center;
     vertical-align: text-top;
 }
 

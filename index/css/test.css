@@ -27,7 +27,6 @@
 #item {
     display: inline-flex;
     position: inherit;
-    top: 20px;
     right: 8px;
     padding: 8px;
 }

@@ -35,8 +35,11 @@
 #dropdown {
     position: absolute;
     top: 30px;
+    right: 0px;
     background-color: black;
     padding: 8px;
+    width: 30px;
+    
 }
 
 .content {

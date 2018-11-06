@@ -28,7 +28,6 @@
     display: inline-flex;
     position: inherit;
     right: 0px;
-    padding: 8px;
     top: 20px;
 }
 
@@ -43,6 +42,7 @@
 #label {
     margin: 0;
     white-space: nowrap;
+    padding: 8px;
 }
 
 #label:hover {

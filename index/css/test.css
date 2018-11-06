@@ -12,11 +12,11 @@
 
 #title {
     padding-left: 8px;
+    display: inline;
 }
 
 #quote {
-    text-align: center;
-    vertical-align: text-top;
+    display: inline;
 }
 
 .content {

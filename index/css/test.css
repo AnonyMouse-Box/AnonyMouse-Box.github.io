@@ -33,6 +33,7 @@
 }
 
 #dropdown {
+    display: none;
     position: absolute;
     top: 30px;
     right: 0px;

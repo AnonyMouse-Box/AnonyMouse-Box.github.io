@@ -17,7 +17,7 @@
 
 #quote {
     display: inline-flex;
-    position: fixed;
+    position: inherit;
     top: 0rem;
     left: calc(50% - 170px);
     font-size: 0.85rem;

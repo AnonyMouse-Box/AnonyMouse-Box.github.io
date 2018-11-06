@@ -19,7 +19,7 @@
     display: inline-flex;
     position: fixed;
     top: 0rem;
-    left: 50%;
+    right: 50%;
 }
 
 .content {

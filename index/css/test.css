@@ -12,11 +12,14 @@
 
 #title {
     padding-left: 8px;
-    display: inline;
+    display: inline-flex;
 }
 
 #quote {
-    display: inline;
+    display: inline-flex;
+    position: fixed;
+    top: 0rem;
+    left: 50%;
 }
 
 .content {

@@ -25,20 +25,20 @@
 }
 
 .content {
-  position: absolute;
-  top: 50px;
-  z-index: 0;
+    position: absolute;
+    top: 50px;
+    z-index: 0;
 }
 
 nav {
-  background-color: #0d0d0d;
-  color: #f2f2e2;
-  position: fixed;
-  width: 100%;
-  top: 0rem;
-  left: 0rem;
-  height: 50px;
-  z-index: 1;
+    background-color: #0d0d0d;
+    color: #f2f2e2;
+    position: fixed;
+    width: 100%;
+    top: 0rem;
+    left: 0rem;
+    height: 50px;
+    z-index: 1;
 }
 
 body {

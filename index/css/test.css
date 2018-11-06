@@ -19,7 +19,7 @@
     display: inline-flex;
     position: fixed;
     top: 0rem;
-    right: 50%;
+    left: calc(50% - 196.5px);
 }
 
 .content {

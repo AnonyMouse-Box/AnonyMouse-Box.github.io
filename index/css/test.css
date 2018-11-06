@@ -19,8 +19,8 @@
     display: inline-flex;
     position: fixed;
     top: 0rem;
-    left: calc(50% - 196.5px);
-    font-size: 1rem;
+    left: calc(50% - 170px);
+    font-size: 0.85rem;
     margin-top: 6px;
 }
 

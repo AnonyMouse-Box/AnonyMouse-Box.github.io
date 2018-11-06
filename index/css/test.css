@@ -24,6 +24,13 @@
     margin-top: 6px;
 }
 
+#item {
+    display: inline-flex;
+    position: inherit;
+    top: 36px;
+    right: 8px;
+}
+
 .content {
     position: absolute;
     top: 50px;

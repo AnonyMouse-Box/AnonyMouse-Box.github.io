@@ -25,7 +25,7 @@
 }
 
 #item {
-    display: inline-flex;
+    display: inline-block;
     position: inherit;
     right: 0px;
     top: 20px;

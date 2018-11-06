@@ -27,14 +27,14 @@
 #item {
     display: inline-flex;
     position: inherit;
-    top: 36px;
+    top: 20px;
     right: 8px;
     padding: 8px;
 }
 
 #dropdown {
     position: absolute;
-    top: 14px;
+    top: 30px;
     background-color: black;
     padding: 8px;
 }

@@ -16,6 +16,8 @@
 
 #quote {
     text-align: center;
+    position: fixed;
+    top: 0rem;
 }
 
 .content {

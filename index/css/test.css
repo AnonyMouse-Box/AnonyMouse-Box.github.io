@@ -49,6 +49,11 @@
     background-color: #2196F3;
 }
 
+#label:hover #dropdown {
+    display: block;
+}
+    
+
 .content {
     position: absolute;
     top: 50px;

@@ -29,6 +29,7 @@
     position: inherit;
     right: 0px;
     top: 20px;
+    cursor: pointer;
 }
 
 #dropdown {

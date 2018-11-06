@@ -20,6 +20,8 @@
     position: fixed;
     top: 0rem;
     left: calc(50% - 196.5px);
+    font-size: 0.8rem;
+    margin-top: 6px;
 }
 
 .content {

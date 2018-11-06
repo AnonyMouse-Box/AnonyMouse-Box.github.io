@@ -44,6 +44,10 @@
     margin: 0;
 }
 
+#label:hover {
+    background-color: #2196F3;
+}
+
 .content {
     position: absolute;
     top: 50px;

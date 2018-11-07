@@ -54,7 +54,6 @@
     position: absolute;
     top: 30px;
     right: 0px;
-    background-color: #0d0d0d;
 }
 
 .item {
@@ -69,13 +68,15 @@
     z-index: 0;
 }
 
-a.item {
+nav, a.item {
     color: #f2f2e2;
 } 
 
-nav {
+nav, .dropdown {
     background-color: #0d0d0d;
-    color: #f2f2e2;
+}
+
+nav {
     position: fixed;
     width: 100%;
     top: 0rem;

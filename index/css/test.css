@@ -44,22 +44,6 @@
     cursor: pointer;
 }
 
-.menu:hover .dropdown {
-    display: block;
-}
-
-.menu:hover, .item:hover {
-    background-color: #2196F3;
-}
-
-.menu {
-    display: inline-block;
-    position: inherit;
-    right: 0px;
-    top: 19px;
-    cursor: pointer;
-}
-
 .label {
     margin: 0;
     padding: 8px;

@@ -68,7 +68,7 @@
     text-decoration: none;
 }
 
-button {
+.button {
     padding: 8px;
     display: inline-block;
     position: fixed;

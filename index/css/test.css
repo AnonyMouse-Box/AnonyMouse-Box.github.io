@@ -32,7 +32,7 @@
     background-color: #2196F3;
 }
 
-.link:hover {
+.item:hover {
     background-color: #2196F3;
 }
 
@@ -44,6 +44,11 @@
     cursor: pointer;
 }
 
+.label {
+    margin: 0;
+    padding: 8px;
+}
+
 .dropdown {
     display: none;
     position: absolute;
@@ -52,21 +57,16 @@
     background-color: #0d0d0d;
 }
 
-.label {
-    margin: 0;
+.item {
+    display: block;
     padding: 8px;
+    text-decoration: none;
 }
 
 .content {
     position: absolute;
     top: 50px;
     z-index: 0;
-}
-
-.link {
-    display: block;
-    padding: 8px;
-    text-decoration: none;
 }
 
 a.link {

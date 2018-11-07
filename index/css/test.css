@@ -28,11 +28,7 @@
     display: block;
 }
 
-.menu:hover {
-    background-color: #2196F3;
-}
-
-.item:hover {
+.menu:hover, .item:hover {
     background-color: #2196F3;
 }
 

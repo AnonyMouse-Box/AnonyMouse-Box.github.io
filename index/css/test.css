@@ -45,11 +45,11 @@
     padding: 8px;
 }
 
-#label:hover {
+#item:hover {
     background-color: #2196F3;
 }
 
-#label:hover #dropdown {
+#item:hover #dropdown {
     display: block;
 }
     

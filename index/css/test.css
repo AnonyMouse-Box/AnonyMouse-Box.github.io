@@ -2,10 +2,6 @@
     display: inline-flex;
     }
 
-#background, #quote {
-    top: 0rem;
-}
-
 #background {
     width: 100%;
     height: 1006px;
@@ -69,6 +65,10 @@
     z-index: 0;
 }
 
+nav, #background, #quote {
+    top: 0rem;
+}
+
 nav, a.item {
     color: #f2f2e2;
 } 
@@ -80,7 +80,6 @@ nav, .dropdown {
 nav {
     position: fixed;
     width: 100%;
-    top: 0rem;
     left: 0rem;
     height: 50px;
     z-index: 1;

@@ -1,6 +1,10 @@
 #title, #quote {
     display: inline-flex;
-    }
+}
+
+#hide:focus nav {
+    display: none;
+}
 
 #background {
     width: 100%;

@@ -60,6 +60,10 @@
     text-decoration: none;
 }
 
+.button {
+    padding: 8px;
+}
+
 .content {
     top: 50px;
     z-index: 0;

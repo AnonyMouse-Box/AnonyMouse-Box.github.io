@@ -4,7 +4,7 @@
 
 #background {
     width: 100%;
-    height: 1006px;
+    height: 100%;
     background: url("../misc/DSC_0095.JPG") fixed;
     background-size: 100%;
     opacity: 0.4;
@@ -19,9 +19,9 @@
 
 #quote {
     position: inherit;
-    left: calc(50% - 170px);
+    left: calc(50% - 12.33rem);
     font-size: 0.75rem;
-    margin-top: 6px;
+    margin-top: 0.5rem;
 }
 
 .hide:focus nav {
@@ -47,37 +47,37 @@
 .menu {
     display: inline-block;
     position: inherit;
-    right: 0px;
-    top: 30px;
+    right: 0rem;
+    top: 2.5rem;
     cursor: pointer;
 }
 
 .label {
-    margin: 0;
-    padding: 8px;
+    margin: 0rem;
+    padding: 0.6667rem;
 }
 
 .dropdown {
     display: none;
-    top: 30px;
-    right: 0px;
+    top: 2.5rem;
+    right: 0rem;
 }
 
 .item {
-    padding: 8px;
+    padding: 0.6667rem;
     text-decoration: none;
 }
 
 .button {
-    padding: 8px;
+    padding: 0.6667rem;
     display: inline-block;
     position: fixed;
-    right: 0px;
+    right: 0rem;
     background-color: 0d0d0d;
 }
 
 .content {
-    top: 60px;
+    top: 5rem;
     z-index: 0;
 }
 

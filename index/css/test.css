@@ -14,7 +14,7 @@
 }
 
 #title {
-    margin: 18px 8px;
+    margin: 18.5rem 0.7rem;
 }
 
 #quote {
@@ -54,7 +54,7 @@
 
 .label {
     margin: 0rem;
-    padding: 0.6667rem;
+    padding: 0.7rem;
 }
 
 .dropdown {
@@ -64,12 +64,12 @@
 }
 
 .item {
-    padding: 0.6667rem;
+    padding: 0.7rem;
     text-decoration: none;
 }
 
 .button {
-    padding: 0.6667rem;
+    padding: 0.7rem;
     display: inline-block;
     position: fixed;
     right: 0rem;
@@ -97,7 +97,7 @@ nav {
     position: fixed;
     width: 100%;
     left: 0rem;
-    height: 5.10rem;
+    height: 5.1rem;
     z-index: 1;
     overflow: auto;
 }

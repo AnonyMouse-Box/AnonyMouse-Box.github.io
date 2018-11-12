@@ -24,21 +24,6 @@
     margin-top: 0.5rem;
 }
 
-.hide {
-    display: inline-block;
-}
-
-.unhide {
-    display: none;
-}
-
-.button {
-    padding: 0.7rem;
-    position: fixed;
-    right: 0rem;
-    background-color: 0d0d0d;
-}
-
 .item, .menu:hover .dropdown {
     display: block;
 }
@@ -49,6 +34,21 @@
 
 .dropdown, .content {
     position: absolute;
+}
+
+.button {
+    padding: 0.7rem;
+    position: fixed;
+    right: 0rem;
+    background-color: 0d0d0d;
+}
+
+.hide {
+    display: inline-block;
+}
+
+.unhide {
+    display: none;
 }
 
 .menu {

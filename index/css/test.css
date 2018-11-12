@@ -97,8 +97,9 @@ nav {
     position: fixed;
     width: 100%;
     left: 0rem;
-    height: 60px;
+    height: 5.10rem;
     z-index: 1;
+    overflow: auto;
 }
 
 body {

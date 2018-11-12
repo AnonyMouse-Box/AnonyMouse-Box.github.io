@@ -65,7 +65,7 @@
     display: inline-block;
 }
 
-.unhide, .dropdown {
+.dropdown {
     display: none;
 }
 

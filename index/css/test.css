@@ -4,6 +4,7 @@
 
 #background, nav {
     left: 0rem;
+    width: 100%;
 }
 
 #background, .button, nav {
@@ -12,10 +13,6 @@
 
 #quote, .menu {
     position: inherit;
-}
-
-#background, nav {
-    width: 100%;
 }
 
 #background {

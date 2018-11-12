@@ -1,20 +1,3 @@
-#title, #quote {
-    display: inline-flex;
-}
-
-#background, nav {
-    left: 0rem;
-    width: 100%;
-}
-
-#background, .button, nav {
-    position: fixed;
-}
-
-#quote, .menu {
-    position: inherit;
-}
-
 #background {
     height: 100%;
     background: url("../misc/DSC_0095.JPG") fixed;
@@ -23,62 +6,22 @@
     z-index: -1;
 }
 
-#title {
-    margin: 1.5rem 0.7rem;
-}
-
 #quote {
     left: calc(50% - 12.33rem);
     font-size: 0.75rem;
     margin-top: 0.5rem;
 }
 
-.item, .menu:hover .dropdown {
-    display: block;
+#title {
+    margin: 1.5rem 0.7rem;
 }
 
-.menu:hover, .item:hover, .button:hover {
-    background-color: #2196F3;
-}
-
-.button, .item, .label {
-    padding: 0.7rem;
-}
-
-.button, .menu, .dropdown {
-    right: 0rem;
-}
-
-.dropdown, .content {
-    position: absolute;
-}
-
-.menu, .dropdown {
-    top: 2.5rem;
+#quote, #title {
+    display: inline-flex;
 }
 
 .button {
     background-color: 0d0d0d;
-}
-
-.hide, .menu {
-    display: inline-block;
-}
-
-.dropdown {
-    display: none;
-}
-
-.menu {
-    cursor: pointer;
-}
-
-.label {
-    margin: 0rem;
-}
-
-.item {
-    text-decoration: none;
 }
 
 .content {
@@ -86,16 +29,56 @@
     z-index: 0;
 }
 
-nav, #background, #quote {
-    top: 0rem;
+.dropdown {
+    display: none;
 }
 
-nav, a.item {
-    color: #f2f2e2;
-} 
+.item {
+    text-decoration: none;
+}
 
-nav, .dropdown {
-    background-color: #0d0d0d;
+.label {
+    margin: 0rem;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.content, .dropdown {
+    position: absolute;
+}
+
+.dropdown, .menu {
+    top: 2.5rem;
+}
+
+.hide, .menu {
+    display: inline-block;
+}
+
+.item, .menu:hover .dropdown {
+    display: block;
+}
+
+.menu, #quote {
+    position: inherit;
+}
+
+.button, .dropdown, .menu {
+    right: 0rem;
+}
+
+.button, .item, .label {
+    padding: 0.7rem;
+}
+
+.button:hover, .item:hover, .menu:hover {
+    background-color: #2196F3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -104,6 +87,23 @@ nav {
     overflow: auto;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+a.item, nav {
+    color: #f2f2e2;
+} 
+
+nav, #background {
+    left: 0rem;
+    width: 100%;
+}
+
+nav, .dropdown {
+    background-color: #0d0d0d;
+}
+
+nav, #background, #quote {
+    top: 0rem;
+}
+
+nav, .button, #background {
+    position: fixed;
 }

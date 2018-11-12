@@ -24,10 +24,6 @@
     margin-top: 0.5rem;
 }
 
-.hide:focus nav {
-    display: none;
-}
-
 .unhide {
     display: none;
 }

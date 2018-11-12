@@ -25,15 +25,18 @@
 }
 
 .hide {
-    padding: 0.7rem;
     display: inline-block;
-    position: fixed;
-    right: 0rem;
-    background-color: 0d0d0d;
 }
 
 .unhide {
     display: none;
+}
+
+.button {
+    padding: 0.7rem;
+    position: fixed;
+    right: 0rem;
+    background-color: 0d0d0d;
 }
 
 .item, .menu:hover .dropdown {

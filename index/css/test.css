@@ -24,8 +24,24 @@
     margin-top: 0.5rem;
 }
 
+.hide {
+    padding: 0.7rem;
+    display: inline-block;
+    position: fixed;
+    right: 0rem;
+    background-color: 0d0d0d;
+}
+
 .unhide {
     display: none;
+}
+
+.hide:focus .unhide {
+    padding: 0.7rem;
+    display: inline-block;
+    position: fixed;
+    right: 0rem;
+    background-color: 0d0d0d;
 }
 
 .item, .menu:hover .dropdown {
@@ -62,14 +78,6 @@
 .item {
     padding: 0.7rem;
     text-decoration: none;
-}
-
-.button {
-    padding: 0.7rem;
-    display: inline-block;
-    position: fixed;
-    right: 0rem;
-    background-color: 0d0d0d;
 }
 
 .content {

@@ -2,14 +2,27 @@
     display: inline-flex;
 }
 
-#background {
+#background, nav {
+    left: 0rem;
+}
+
+#background, .button, nav {
+    position: fixed;
+}
+
+#quote, .menu {
+    position: inherit;
+}
+
+#background, nav {
     width: 100%;
+}
+
+#background {
     height: 100%;
     background: url("../misc/DSC_0095.JPG") fixed;
     background-size: 100%;
     opacity: 0.4;
-    position: fixed;
-    left: 0rem;
     z-index: -1;
 }
 
@@ -18,7 +31,6 @@
 }
 
 #quote {
-    position: inherit;
     left: calc(50% - 12.33rem);
     font-size: 0.75rem;
     margin-top: 0.5rem;
@@ -32,46 +44,43 @@
     background-color: #2196F3;
 }
 
+.button, .item, .label {
+    padding: 0.7rem;
+}
+
+.button, .menu, .dropdown {
+    right: 0rem;
+}
+
 .dropdown, .content {
     position: absolute;
 }
 
+.menu, .dropdown {
+    top: 2.5rem;
+}
+
 .button {
-    padding: 0.7rem;
-    position: fixed;
-    right: 0rem;
     background-color: 0d0d0d;
 }
 
-.hide {
+.hide, .menu {
     display: inline-block;
 }
 
-.unhide {
+.unhide, .dropdown {
     display: none;
 }
 
 .menu {
-    display: inline-block;
-    position: inherit;
-    right: 0rem;
-    top: 2.5rem;
     cursor: pointer;
 }
 
 .label {
     margin: 0rem;
-    padding: 0.7rem;
-}
-
-.dropdown {
-    display: none;
-    top: 2.5rem;
-    right: 0rem;
 }
 
 .item {
-    padding: 0.7rem;
     text-decoration: none;
 }
 
@@ -93,9 +102,6 @@ nav, .dropdown {
 }
 
 nav {
-    position: fixed;
-    width: 100%;
-    left: 0rem;
     height: 5.1rem;
     z-index: 1;
     overflow: auto;

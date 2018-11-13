@@ -50,7 +50,7 @@
     margin: 0rem;
 }
 
-.menu, #hide:selected #unhide {
+.menu {
     cursor: pointer;
     display: inline-block;
 }

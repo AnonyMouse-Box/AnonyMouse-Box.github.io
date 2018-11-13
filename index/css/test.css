@@ -16,15 +16,6 @@
     margin: 1.825rem 0.7rem;
 }
 
-#unhide {
-    display: none;
-}
-
-
-#hide:active nav {
-    display: none;
-}
-
 #quote, #title {
     display: inline-flex;
 }

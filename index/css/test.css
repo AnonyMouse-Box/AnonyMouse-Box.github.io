@@ -25,10 +25,6 @@
     display: none;
 }
 
-#hide:active #unhide {
-    display: inline-block
-}
-
 #quote, #title {
     display: inline-flex;
 }
@@ -54,7 +50,7 @@
     margin: 0rem;
 }
 
-.menu {
+.menu, #hide:selected #unhide {
     cursor: pointer;
     display: inline-block;
 }

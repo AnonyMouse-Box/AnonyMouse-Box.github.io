@@ -53,14 +53,11 @@
 .menu {
     cursor: pointer;
     display: inline-block;
+    top: 2.5rem;
 }
 
 .content, .dropdown {
     position: absolute;
-}
-
-.dropdown, .menu {
-    top: 2.5rem;
 }
 
 .item, .menu:hover .dropdown {

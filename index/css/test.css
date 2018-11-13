@@ -21,7 +21,7 @@
 }
 
 
-#hide:active #nav {
+#hide:active nav {
     display: none;
 }
 

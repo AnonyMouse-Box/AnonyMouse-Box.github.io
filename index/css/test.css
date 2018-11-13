@@ -20,6 +20,7 @@
 }
 
 #unhide {
+    display: none;
 }
 
 #quote, #title {

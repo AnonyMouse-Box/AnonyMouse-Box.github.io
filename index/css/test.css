@@ -6,6 +6,9 @@
     z-index: -1;
 }
 
+#hide {
+}
+
 #quote {
     left: calc(50% - 12.33rem);
     font-size: 0.75rem;
@@ -14,6 +17,9 @@
 
 #title {
     margin: 1.5rem 0.7rem;
+}
+
+#unhide {
 }
 
 #quote, #title {

@@ -6,9 +6,6 @@
     z-index: -1;
 }
 
-#hide {
-}
-
 #quote {
     left: calc(50% - 12.33rem);
     font-size: 0.75rem;
@@ -21,6 +18,15 @@
 
 #unhide {
     display: none;
+}
+
+
+#hide:active {
+    display: none;
+}
+
+#hide:active #unhide {
+    display: inline-block
 }
 
 #quote, #title {

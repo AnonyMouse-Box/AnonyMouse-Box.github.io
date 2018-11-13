@@ -20,10 +20,6 @@
     display: inline-flex;
 }
 
-.button {
-    background-color: 0d0d0d;
-}
-
 .content {
     top: 5.4rem;
     z-index: 0;
@@ -90,7 +86,7 @@ nav, #background {
     width: 100%;
 }
 
-nav, .dropdown {
+nav, .dropdown, .button {
     background-color: #0d0d0d;
 }
 

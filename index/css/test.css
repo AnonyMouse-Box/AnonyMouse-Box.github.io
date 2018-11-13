@@ -43,6 +43,7 @@
 
 .menu {
     cursor: pointer;
+    display: inline-block;
 }
 
 .content, .dropdown {
@@ -51,10 +52,6 @@
 
 .dropdown, .menu {
     top: 2.5rem;
-}
-
-.hide, .menu {
-    display: inline-block;
 }
 
 .item, .menu:hover .dropdown {

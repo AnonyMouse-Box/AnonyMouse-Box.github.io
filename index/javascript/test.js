@@ -5,5 +5,5 @@ const hide = () => {
 
 const unhide = () => {
   document.getElementsByClassName("unhide")[0].setAttribute("id", "hide");
-  document.getElementsByClassName("nav")[0].removeAttribute("id");
+  document.getElementByTagName("nav")[0].removeAttribute("id");
 }

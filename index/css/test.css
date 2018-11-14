@@ -81,11 +81,11 @@ nav {
     overflow: auto;
 }
 
-a.item, nav {
+a.item, nav, .unhide {
     color: #f2f2e2;
 } 
 
-nav, #background {
+nav, .unhide, #background {
     left: 0rem;
     width: 100%;
 }
@@ -94,7 +94,7 @@ nav, .dropdown, .button {
     background-color: #0d0d0d;
 }
 
-nav, #background, #quote {
+nav, .unhide, #background, #quote {
     top: 0rem;
 }
 

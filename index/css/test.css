@@ -59,7 +59,7 @@
     position: inherit;
 }
 
-.button, .dropdown, .menu {
+.button, .dropdown, .menu, .unhide {
     right: 0rem;
 }
 
@@ -85,7 +85,7 @@ a.item, nav, .unhide {
     color: #f2f2e2;
 } 
 
-nav, .unhide, #background {
+nav, #background {
     left: 0rem;
     width: 100%;
 }

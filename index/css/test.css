@@ -41,10 +41,6 @@
 }
 
 .label {
-    margin: 0rem;
-}
-
-.link {
     text-decoration: none;
 }
 
@@ -56,7 +52,7 @@
     position: inherit;
 }
 
-.link, .menu:hover .dropdown {
+.label, .menu:hover .dropdown {
     display: block;
 }
 
@@ -64,11 +60,11 @@
     right: 0rem;
 }
 
-.button, .link, .label {
+.button, .label, .item {
     padding: 0.7rem;
 }
 
-.button:hover, .link:hover, .item:hover {
+.button:hover, .label:hover, .item:hover {
     background-color: #2196F3;
 }
 

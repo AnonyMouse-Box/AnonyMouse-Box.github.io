@@ -35,40 +35,40 @@
 }
 
 .item {
-    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    top: 2.8rem;
 }
 
 .label {
     margin: 0rem;
 }
 
-.menu {
-    cursor: pointer;
-    display: inline-block;
-    top: 2.8rem;
+.link {
+    text-decoration: none;
 }
 
 .content, .dropdown {
     position: absolute;
 }
 
-.item, .menu:hover .dropdown {
-    display: block;
-}
-
-.menu, #quote {
+.item, #quote {
     position: inherit;
 }
 
-.button, .dropdown, .menu, .unhide {
+.link, .menu:hover .dropdown {
+    display: block;
+}
+
+.button, .dropdown, .item, .unhide {
     right: 0rem;
 }
 
-.button, .item, .label {
+.button, .link, .label {
     padding: 0.7rem;
 }
 
-.button:hover, .item:hover, .menu:hover {
+.button:hover, .link:hover, .item:hover {
     background-color: #2196F3;
 }
 
@@ -82,7 +82,7 @@ nav {
     overflow: auto;
 }
 
-a.item, nav, .unhide {
+a.link, nav, .unhide {
     color: #f2f2e2;
 } 
 

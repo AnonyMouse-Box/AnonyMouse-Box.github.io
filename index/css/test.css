@@ -47,7 +47,7 @@
     position: absolute;
 }
 
-.label, .menu:hover .dropdown {
+.label, .item:hover .dropdown {
     display: block;
 }
 

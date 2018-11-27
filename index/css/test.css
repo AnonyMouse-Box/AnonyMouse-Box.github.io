@@ -30,6 +30,10 @@
     display: inline-flex;
 }
 
+.button {
+    z-index: 1;
+}
+
 .content {
     top: 5.4rem;
     z-index: 0;

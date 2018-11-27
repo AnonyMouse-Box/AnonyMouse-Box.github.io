@@ -10,6 +10,10 @@
     display: none;
 }
 
+#hide-top {
+    top: 5.4rem;
+}
+
 #quote {
     left: calc(50% - 12.33rem);
     font-size: 0.75rem;

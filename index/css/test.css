@@ -63,7 +63,7 @@
     position: absolute;
 }
 
-.label, #item_1:hover #dropdown_1, #item_2:hover #item_2 {
+.label, #item_1:hover #dropdown_1, #item_2:hover #dropdown_2 {
     display: block;
 }
 

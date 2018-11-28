@@ -59,7 +59,7 @@
     list-style-type: none;
 }
 
-.content, .dropdown {
+.content {
     position: absolute;
 }
 

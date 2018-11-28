@@ -64,7 +64,7 @@
 }
 
 .label, #item_1:hover #dropdown_1, #item_2:hover #dropdown_2 {
-    display: block;
+    display: table;
 }
 
 .button, .dropdown, .unhide {
@@ -89,7 +89,7 @@ nav {
     overflow: auto;
 }
 
-a.link, nav, .unhide {
+a.link, nav, .unhide, .label {
     color: #f2f2e2;
 } 
 

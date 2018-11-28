@@ -1,24 +1,15 @@
 #background {
     height: 100%;
-    background: url("../misc/DSC_0095.JPG") fixed;
+    background: url("DSC_0095.JPG") fixed;
     background-size: 100%;
     opacity: 0.4;
     z-index: -1;
-}
-
-#hide {
-    display: none;
-}
-
-#hide-top {
-    top: 0rem;
 }
 
 #quote {
     left: calc(50% - 12.33rem);
     font-size: 0.75rem;
     margin-top: 0.5rem;
-    position: inherit;
 }
 
 #title {
@@ -26,21 +17,10 @@
     top: 1rem;
 }
 
-#quote {
-    display: inline-flex;
-}
-
-.button {
-    z-index: 1;
-}
-
 .content {
     top: 5.4rem;
     z-index: 0;
-}
-
-.dropdown {
-    display: none;
+    position: absolute;
 }
 
 .item {
@@ -49,25 +29,28 @@
 
 .label {
     text-decoration: none;
+    display: block;
 }
 
 .menu {
-    display:inline-flex;
-    position: inherit;
-    right: 0rem;
     top: 1.8rem;
     list-style-type: none;
 }
 
-.content {
-    position: absolute;
+.dropdown, #hide {
+    display: none;
 }
 
-.label, #item_1:hover #dropdown_1, #item_2:hover #dropdown_2 {
+.menu, #quote {
+    display: inline-flex;
+    position: inherit;
+}
+
+#item_1:hover #dropdown_1, #item_2:hover #dropdown_2 {
     display: table;
 }
 
-.button, .dropdown, .unhide {
+.button, .dropdown, .menu, .unhide {
     right: 0rem;
 }
 
@@ -85,13 +68,12 @@ body {
 
 nav {
     height: 5.4rem;
-    z-index: 1;
     overflow: auto;
 }
 
-a.link, nav, .unhide, .label {
-    color: #f2f2e2;
-} 
+nav, .button {
+    z-index: 1;
+}
 
 nav, #background {
     left: 0rem;
@@ -102,7 +84,11 @@ nav, .dropdown, .button {
     background-color: #0d0d0d;
 }
 
-nav, .unhide, #background, #quote {
+a.link, nav, .unhide, .label {
+    color: #f2f2e2;
+}
+
+nav, .unhide, #background, #hide-top, #quote {
     top: 0rem;
 }
 

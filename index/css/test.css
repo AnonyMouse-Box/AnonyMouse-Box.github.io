@@ -14,6 +14,11 @@
     height: 0rem;
 }
 
+#disappear {
+    z-index: -2;
+    opacity: 0;
+}
+
 .quote {
     left: calc(50% - 12.33rem);
     font-size: 0.75rem;
@@ -31,6 +36,10 @@
 
 #item_1:hover #dropdown_1, #item_2:hover #dropdown_2 {
     display: table;
+}
+
+.button {
+    transition: 0.5s;
 }
 
 .content {

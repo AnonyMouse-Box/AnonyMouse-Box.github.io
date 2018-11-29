@@ -11,7 +11,7 @@ const hide = () => {
 const unhide = () => {
   document.getElementsByClassName("unhide")[0].setAttribute("id", "disappear");
   document.getElementsByClassName("hide")[0].removeAttribute("id");
-  document.getElementById("nav")[0].removeAttribute("id");
+  document.getElementByTagName("nav")[0].removeAttribute("id");
   document.getElementsByClassName("title")[0].removeAttribute("id");
   document.getElementsByClassName("quote")[0].removeAttribute("id");
   document.getElementsByClassName("menu")[0].removeAttribute("id");

@@ -10,6 +10,11 @@
     padding: 0.7rem 0.8rem;
 }
 
+#collapse {
+    height: 0rem;
+    transition: 0.3s;
+}
+
 #quote {
     left: calc(50% - 12.33rem);
     font-size: 0.75rem;

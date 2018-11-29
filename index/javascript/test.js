@@ -2,8 +2,6 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-window.onscroll = function() {scrollFunction()};
-
 const hide = () => {
   document.getElementsByClassName("unhide")[0].removeAttribute("id");
   document.getElementsByClassName("hide")[0].setAttribute("id", "disappear");
@@ -25,6 +23,8 @@ const unhide = () => {
     document.getElementsByClassName("menu")[0].removeAttribute("id");
   })
 }
+
+window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {

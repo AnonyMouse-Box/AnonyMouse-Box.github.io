@@ -41,6 +41,10 @@
     list-style-type: none;
 }
 
+.right {
+    right: 0rem;
+}
+
 .dropdown, #hide {
     display: none;
 }
@@ -52,10 +56,6 @@
 
 #item_1:hover #dropdown_1, #item_2:hover #dropdown_2 {
     display: table;
-}
-
-.button, .menu, .unhide {
-    right: 0rem;
 }
 
 .button, .label, .item {

@@ -12,9 +12,9 @@ const unhide = () => {
   document.getElementsByClassName("unhide")[0].setAttribute("id", "disappear");
   document.getElementsByClassName("hide")[0].removeAttribute("id");
   document.getElementsByTagName("nav")[0].removeAttribute("id");
-  sleep(500);
+  document.getElementsByClassName("content")[0].removeAttribute("id");
+  sleep(500ms);
   document.getElementsByClassName("title")[0].removeAttribute("id");
   document.getElementsByClassName("quote")[0].removeAttribute("id");
   document.getElementsByClassName("menu")[0].removeAttribute("id");
-  document.getElementsByClassName("content")[0].removeAttribute("id");
 }

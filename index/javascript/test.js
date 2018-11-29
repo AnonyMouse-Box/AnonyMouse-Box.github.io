@@ -24,11 +24,13 @@ const unhide = () => {
   })
 }
 
+window.onscroll = function() {scrollFunction()};
+
 function scrollFunction() {
-    if (document.documentElement.scrollTop > 20) {
-        document.getElementsByClassName("top").style.display = "block";
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementsByClassName("top")[0].removeAttribute("id");
     } else {
-        document.getElementsByClassName("top").style.display = "none";
+        document.getElementsByClassName("top")[0].setAttribute("id", "hide");
     }
 }
 

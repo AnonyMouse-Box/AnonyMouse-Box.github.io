@@ -6,6 +6,10 @@
     z-index: -1;
 }
 
+#last {
+    padding: 0.7rem 0.8rem;
+}
+
 #quote {
     left: calc(50% - 12.33rem);
     font-size: 0.75rem;
@@ -50,7 +54,7 @@
     display: table;
 }
 
-.button, .dropdown, .menu, .unhide {
+.button, .menu, .unhide {
     right: 0rem;
 }
 

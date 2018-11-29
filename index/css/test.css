@@ -24,7 +24,7 @@
     bottom: 0rem;
 }
 
-#title {
+.title {
     margin: 0.7rem;
     top: 1rem;
 }
@@ -105,6 +105,6 @@ nav, .unhide, #background, #hide-top, #quote {
     top: 0rem;
 }
 
-nav, .button, #background, #title {
+nav, .button, #background, .title {
     position: fixed;
 }

@@ -25,14 +25,14 @@
     top: 1rem;
 }
 
+#item_1:hover #dropdown_1, #item_2:hover #dropdown_2 {
+    display: table;
+}
+
 .content {
     top: 5.4rem;
     z-index: 0;
     position: absolute;
-}
-
-.item {
-    cursor: pointer;
 }
 
 .label {
@@ -58,8 +58,8 @@
     position: inherit;
 }
 
-#item_1:hover #dropdown_1, #item_2:hover #dropdown_2 {
-    display: table;
+.item, .label, .button {
+    cursor: pointer;
 }
 
 .button, .label, .item {

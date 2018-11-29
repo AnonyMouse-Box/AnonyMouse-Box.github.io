@@ -25,7 +25,7 @@ const unhide = () => {
 }
 
 function scrollFunction() {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementsByClassName("top").style.display = "block";
     } else {
         document.getElementsByClassName("top").style.display = "none";
@@ -37,4 +37,4 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-window.onscroll = function() {scrollFunction()};
+scrollFunction(window.onscroll);

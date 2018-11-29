@@ -28,9 +28,9 @@ const unhide = () => {
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementByClass("myBtn").removeAttribute("id");
+        document.getElementByClass("top").removeAttribute("id");
     } else {
-        document.getElementByClass("myBtn").setAttribute("id", "hide");
+        document.getElementByClass("top").setAttribute("id", "hide");
     }
 }
 

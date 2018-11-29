@@ -37,6 +37,7 @@
     top: 5.4rem;
     z-index: 0;
     position: absolute;
+    transition: 0.5s;
 }
 
 .label {

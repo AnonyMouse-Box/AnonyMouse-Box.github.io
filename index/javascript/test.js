@@ -1,3 +1,7 @@
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 const hide = () => {
   document.getElementsByClassName("unhide")[0].removeAttribute("id");
   document.getElementsByClassName("hide")[0].setAttribute("id", "disappear");
@@ -13,7 +17,7 @@ const unhide = () => {
   document.getElementsByClassName("hide")[0].removeAttribute("id");
   document.getElementsByTagName("nav")[0].removeAttribute("id");
   document.getElementsByClassName("content")[0].removeAttribute("id");
-  sleep(500ms);
+  sleep(500);
   document.getElementsByClassName("title")[0].removeAttribute("id");
   document.getElementsByClassName("quote")[0].removeAttribute("id");
   document.getElementsByClassName("menu")[0].removeAttribute("id");

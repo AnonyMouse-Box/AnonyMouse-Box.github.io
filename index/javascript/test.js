@@ -4,6 +4,7 @@ const hide = () => {
   document.getElementsByClassName("title")[0].setAttribute("id", "hide");
   document.getElementsByClassName("quote")[0].setAttribute("id", "hide");
   document.getElementsByClassName("content")[0].setAttribute("id", "hide-top");
+  document.getElementsByClassName("menu")[0].setAttribute("id", "hide");
 }
 
 const unhide = () => {
@@ -12,4 +13,5 @@ const unhide = () => {
   document.getElementsByClassName("title")[0].removeAttribute("id");
   document.getElementsByClassName("quote")[0].removeAttribute("id");
   document.getElementsByClassName("content")[0].removeAttribute("id");
+  document.getElementsByClassName("menu")[0].removeAttribute("id");
 }

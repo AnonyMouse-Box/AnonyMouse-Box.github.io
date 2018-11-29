@@ -92,7 +92,7 @@ nav, .dropdown, .button {
     background-color: #0d0d0d;
 }
 
-a.link, nav, .unhide, .label {
+a.link, nav, .unhide, .label, #top {
     color: #f2f2e2;
 }
 

@@ -30,7 +30,7 @@ function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementsByClassName("top")[0].removeAttribute("id");
     } else {
-        document.getElementsByClassName("top")[0].setAttribute("id", "hide");
+        document.getElementsByClassName("top")[0].setAttribute("id", "disappear");
     }
 }
 

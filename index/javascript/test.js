@@ -17,7 +17,7 @@ const unhide = () => {
   document.getElementsByClassName("hide")[0].removeAttribute("id");
   document.getElementsByTagName("nav")[0].removeAttribute("id");
   document.getElementsByClassName("content")[0].removeAttribute("id");
-  sleep(1000).then(() => {
+  sleep(500).then(() => {
     document.getElementsByClassName("title")[0].removeAttribute("id");
     document.getElementsByClassName("quote")[0].removeAttribute("id");
     document.getElementsByClassName("menu")[0].removeAttribute("id");

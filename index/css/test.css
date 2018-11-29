@@ -16,6 +16,10 @@
     margin-top: 0.5rem;
 }
 
+#top {
+    bottom: 0rem;
+}
+
 #title {
     margin: 0.7rem;
     top: 1rem;
@@ -75,7 +79,7 @@ nav {
     overflow: auto;
 }
 
-nav, .button {
+nav, .button, #top {
     z-index: 1;
 }
 

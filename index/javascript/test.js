@@ -25,7 +25,7 @@ const unhide = () => {
 }
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 20) {
         document.getElementsByClassName("top").style.display = "block";
     } else {
         document.getElementsByClassName("top").style.display = "none";

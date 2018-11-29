@@ -14,7 +14,7 @@
     height: 0rem;
 }
 
-#quote {
+.quote {
     left: calc(50% - 12.33rem);
     font-size: 0.75rem;
     margin-top: 0.5rem;
@@ -57,7 +57,7 @@
     display: none;
 }
 
-.menu, #quote {
+.menu, .quote {
     display: inline-flex;
     position: inherit;
 }
@@ -101,7 +101,7 @@ a.link, nav, .unhide, .label, #top {
     color: #f2f2e2;
 }
 
-nav, .unhide, #background, #hide-top, #quote {
+nav, .unhide, #background, #hide-top, .quote {
     top: 0rem;
 }
 

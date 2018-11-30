@@ -6,10 +6,6 @@
     z-index: -1;
 }
 
-#last {
-    padding: 0.7rem 0.8rem;
-}
-
 #collapse {
     height: 0rem;
 }
@@ -19,19 +15,8 @@
     opacity: 0;
 }
 
-.quote {
-    left: calc(50% - 12.33rem);
-    font-size: 0.75rem;
-    margin-top: 0.5rem;
-}
-
-.top {
-    bottom: 0rem;
-}
-
-.title {
-    margin: 0.7rem;
-    top: 1rem;
+#last {
+    padding: 0.7rem 0.8rem;
 }
 
 #item_1:hover #dropdown_1, #item_2:hover #dropdown_2 {
@@ -40,6 +25,7 @@
 
 .button {
     transition: 0.5s;
+    z-index: 2;
 }
 
 .content {
@@ -59,33 +45,44 @@
     list-style-type: none;
 }
 
+.quote {
+    left: calc(50% - 12.33rem);
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
 .right {
     right: 0rem;
 }
 
-.button {
-    z-index: 2;
+.title {
+    margin: 0.7rem;
+    top: 1rem;
+}
+
+.top {
+    bottom: 0rem;
 }
 
 .dropdown, #hide {
     display: none;
 }
 
-.menu, .quote {
-    display: inline-flex;
-    position: inherit;
-}
-
-.item, .label, .button {
-    cursor: pointer;
-}
-
-.button, .label, .item {
+.button, .item, .label {
     padding: 0.7rem;
 }
 
-.button:hover, .label:hover, .item:hover {
+.button:hover, .item:hover, .label:hover {
     background-color: #007FFF;
+}
+
+.button, .item, .label  {
+    cursor: pointer;
+}
+
+.menu, .quote {
+    display: inline-flex;
+    position: inherit;
 }
 
 body {
@@ -98,27 +95,27 @@ nav {
     transition: 0.5s;
 }
 
-nav, .top {
-    z-index: 1;
-}
-
 nav, #background {
     left: 0rem;
     width: 100%;
 }
 
-nav, .dropdown, .button {
+nav, .top {
+    z-index: 1;
+}
+
+nav, .button, .dropdown {
     background-color: #0d0d0d;
 }
 
-a.link, nav, .unhide, .label, .top {
-    color: #f2f2e2;
-}
-
-nav, .unhide, #background, #hide-top, .quote {
+nav, .quote, .unhide, #background, #hide-top {
     top: 0rem;
 }
 
-nav, .button, #background, .title {
+nav, .button, .title, #background {
     position: fixed;
+}
+
+a.link, nav, .label, .top, .unhide {
+    color: #f2f2e2;
 }

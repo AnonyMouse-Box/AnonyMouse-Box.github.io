@@ -27,7 +27,7 @@ const unhide = () => {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         document.getElementsByClassName("top")[0].removeAttribute("id");
     } else {
         document.getElementsByClassName("top")[0].setAttribute("id", "disappear");

@@ -24,7 +24,6 @@
 }
 
 .button {
-    transition: 0.5s;
     z-index: 2;
 }
 
@@ -32,7 +31,6 @@
     top: 5.4rem;
     z-index: 0;
     position: absolute;
-    transition: 0.5s;
 }
 
 .label {
@@ -70,14 +68,11 @@
 
 .button, .item, .label {
     padding: 0.7rem;
+    cursor: pointer;
 }
 
 .button:hover, .item:hover, .label:hover {
     background-color: #007FFF;
-}
-
-.button, .item, .label  {
-    cursor: pointer;
 }
 
 .menu, .quote {
@@ -92,7 +87,6 @@ body {
 nav {
     height: 5.4rem;
     overflow: auto;
-    transition: 0.5s;
 }
 
 nav, #background {
@@ -102,6 +96,10 @@ nav, #background {
 
 nav, .top {
     z-index: 1;
+}
+
+nav, .button, .content {
+    transition: 0.5s;
 }
 
 nav, .button, .dropdown {

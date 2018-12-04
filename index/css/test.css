@@ -117,3 +117,17 @@ nav, .button, .title, #background {
 a.link, nav, .label, .top, .unhide {
     color: #f2f2e2;
 }
+
+
+aside {
+    height: 5.4rem;
+    overflow: auto;
+    left: 0rem;
+    width: 100%;
+    z-index: 1;
+    transition: 0.5s;
+    background-color: #0d0d0d;
+    top: 0rem;
+    position: fixed;
+    color: #f2f2e2;
+}

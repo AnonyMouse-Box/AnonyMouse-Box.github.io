@@ -42,6 +42,10 @@
     display: block;
 }
 
+.left {
+    left: 0rem;
+}
+
 .menu {
     top: 1.8rem;
     list-style-type: none;

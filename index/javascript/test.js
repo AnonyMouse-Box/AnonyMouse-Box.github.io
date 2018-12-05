@@ -5,7 +5,7 @@ function sleep(ms) {
 const hideTop = () => {
   document.getElementsByClassName("top-unhide")[0].removeAttribute("id");
   document.getElementsByClassName("top-hide")[0].setAttribute("id", "disappear");
-  document.getElementsByTagName("nav")[0].setAttribute("id", "collapse");
+  document.getElementsByTagName("nav")[0].setAttribute("id", "collapse-top");
   document.getElementsByClassName("content")[0].setAttribute("id", "hide-top");
   document.getElementsByClassName("title")[0].setAttribute("id", "hide");
   document.getElementsByClassName("quote")[0].setAttribute("id", "hide");
@@ -27,7 +27,7 @@ const unhideTop = () => {
 const hideSide = () => {
   document.getElementsByClassName("side-unhide")[0].removeAttribute("id");
   document.getElementsByClassName("side-hide")[0].setAttribute("id", "disappear");
-  document.getElementsByTagName("aside")[0].setAttribute("id", "collapse");
+  document.getElementsByTagName("aside")[0].setAttribute("id", "collapse-side");
   document.getElementsByClassName("content")[0].setAttribute("id", "hide-side");
   //contents
 }

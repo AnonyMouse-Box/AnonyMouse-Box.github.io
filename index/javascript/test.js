@@ -28,7 +28,7 @@ const hideSide = () => {
   document.getElementsByClassName("side-unhide")[0].removeAttribute("id");
   document.getElementsByClassName("side-hide")[0].setAttribute("id", "disappear");
   //container
-  document.getElementsByClassName("content")[0].setAttribute("id", "hide-top");
+  document.getElementsByClassName("content")[0].setAttribute("id", "hide-side");
   //contents
 }
 

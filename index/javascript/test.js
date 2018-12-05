@@ -6,7 +6,7 @@ const hideTop = () => {
   document.getElementsByClassName("top-unhide")[0].removeAttribute("id");
   document.getElementsByClassName("top-hide")[0].setAttribute("id", "disappear");
   document.getElementsByTagName("nav")[0].setAttribute("id", "collapse-top");
-  document.getElementsByClassName("content")[0].setAttribute("id", "hide-top");
+  document.getElementsByClassName("content")[0].classList.add("hide-top");
   document.getElementsByClassName("title")[0].setAttribute("id", "hide");
   document.getElementsByClassName("quote")[0].setAttribute("id", "hide");
   document.getElementsByClassName("menu")[0].setAttribute("id", "hide");
@@ -16,7 +16,7 @@ const unhideTop = () => {
   document.getElementsByClassName("top-unhide")[0].setAttribute("id", "disappear");
   document.getElementsByClassName("top-hide")[0].removeAttribute("id");
   document.getElementsByTagName("nav")[0].removeAttribute("id");
-  document.getElementsByClassName("content")[0].removeAttribute("id");
+  document.getElementsByClassName("content")[0].classList.remove("hide-top");
   sleep(500).then(() => {
     document.getElementsByClassName("title")[0].removeAttribute("id");
     document.getElementsByClassName("quote")[0].removeAttribute("id");

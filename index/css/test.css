@@ -6,9 +6,12 @@
     z-index: -1;
 }
 
-#collapse {
-    height: 0rem;
+#collapse-side {
     width: 0rem;
+}
+
+#collapse-top {
+    height: 0rem;
 }
 
 #disappear {

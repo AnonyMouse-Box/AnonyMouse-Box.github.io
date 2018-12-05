@@ -27,6 +27,10 @@
     z-index: 99;
 }
 
+.bottom {
+    bottom: 0rem;
+}
+
 .content {
     top: 5.4rem;
     z-index: 0;
@@ -58,10 +62,6 @@
     top: 1rem;
 }
 
-.top {
-    bottom: 0rem;
-}
-
 .dropdown, #hide {
     display: none;
 }
@@ -87,15 +87,12 @@ body {
 nav {
     height: 5.4rem;
     overflow: auto;
+    z-index: 2;
 }
 
 nav, #background {
     left: 0rem;
     width: 100%;
-}
-
-nav, .top {
-    z-index: 2;
 }
 
 nav, .button, .content {
@@ -114,7 +111,7 @@ nav, .button, .title, #background {
     position: fixed;
 }
 
-a.link, nav, .label, .top, .unhide {
+a.link, nav, .button, .label {
     color: #f2f2e2;
 }
 

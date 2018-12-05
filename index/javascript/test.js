@@ -2,7 +2,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-const hide = () => {
+const hideTop = () => {
   document.getElementsByClassName("unhide")[0].removeAttribute("id");
   document.getElementsByClassName("hide")[0].setAttribute("id", "disappear");
   document.getElementsByTagName("nav")[0].setAttribute("id", "collapse");
@@ -12,7 +12,7 @@ const hide = () => {
   document.getElementsByClassName("menu")[0].setAttribute("id", "hide");
 }
 
-const unhide = () => {
+const unhideTop = () => {
   document.getElementsByClassName("unhide")[0].setAttribute("id", "disappear");
   document.getElementsByClassName("hide")[0].removeAttribute("id");
   document.getElementsByTagName("nav")[0].removeAttribute("id");
@@ -34,7 +34,7 @@ function scrollFunction() {
     }
 }
 
-function topFunction() {
+function toTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }

@@ -27,7 +27,7 @@ const unhideTop = () => {
 const hideSide = () => {
   document.getElementsByClassName("side-unhide")[0].removeAttribute("id");
   document.getElementsByClassName("side-hide")[0].setAttribute("id", "disappear");
-  //container
+  document.getElementsByTagName("aside")[0].setAttribute("id", "collapse");
   document.getElementsByClassName("content")[0].setAttribute("id", "hide-side");
   //contents
 }
@@ -35,7 +35,7 @@ const hideSide = () => {
 const unhideSide = () => {
   document.getElementsByClassName("side-unhide")[0].setAttribute("id", "disappear");
   document.getElementsByClassName("side-hide")[0].removeAttribute("id");
-  //container
+  document.getElementsByTagName("aside")[0].removeAttribute("id");
   document.getElementsByClassName("content")[0].removeAttribute("id");
   sleep(500).then(() => {
     //contents

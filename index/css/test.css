@@ -116,7 +116,7 @@ nav, .button, .dropdown {
     background-color: #0d0d0d;
 }
 
-nav, .quote, .unhide, #background, .hide-top {
+nav, .quote, .top-unhide, #background, .hide-top {
     top: 0rem;
 }
 

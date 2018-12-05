@@ -3,8 +3,8 @@ function sleep(ms) {
 }
 
 const hideTop = () => {
-  document.getElementsByClassName("unhide")[0].removeAttribute("id");
-  document.getElementsByClassName("hide")[0].setAttribute("id", "disappear");
+  document.getElementsByClassName("top-unhide")[0].removeAttribute("id");
+  document.getElementsByClassName("top-hide")[0].setAttribute("id", "disappear");
   document.getElementsByTagName("nav")[0].setAttribute("id", "collapse");
   document.getElementsByClassName("content")[0].setAttribute("id", "hide-top");
   document.getElementsByClassName("title")[0].setAttribute("id", "hide");
@@ -13,8 +13,8 @@ const hideTop = () => {
 }
 
 const unhideTop = () => {
-  document.getElementsByClassName("unhide")[0].setAttribute("id", "disappear");
-  document.getElementsByClassName("hide")[0].removeAttribute("id");
+  document.getElementsByClassName("top-unhide")[0].setAttribute("id", "disappear");
+  document.getElementsByClassName("top-hide")[0].removeAttribute("id");
   document.getElementsByTagName("nav")[0].removeAttribute("id");
   document.getElementsByClassName("content")[0].removeAttribute("id");
   sleep(500).then(() => {
@@ -24,7 +24,23 @@ const unhideTop = () => {
   })
 }
 
-window.onscroll = function() {scrollFunction()};
+const hideSide = () => {
+  document.getElementsByClassName("side-unhide")[0].removeAttribute("id");
+  document.getElementsByClassName("side-hide")[0].setAttribute("id", "disappear");
+  //container
+  document.getElementsByClassName("content")[0].setAttribute("id", "hide-top");
+  //contents
+}
+
+const unhideSide = () => {
+  document.getElementsByClassName("side-unhide")[0].setAttribute("id", "disappear");
+  document.getElementsByClassName("side-hide")[0].removeAttribute("id");
+  //container
+  document.getElementsByClassName("content")[0].removeAttribute("id");
+  sleep(500).then(() => {
+    //contents
+  })
+}
 
 function scrollFunction() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -33,6 +49,8 @@ function scrollFunction() {
         document.getElementsByClassName("to-top")[0].setAttribute("id", "disappear");
     }
 }
+
+window.onscroll = function() {scrollFunction()};
 
 function toTop() {
     document.body.scrollTop = 0;

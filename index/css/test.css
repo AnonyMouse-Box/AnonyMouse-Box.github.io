@@ -1,5 +1,4 @@
 #background {
-    height: 100%;
     background: url("../misc/DSC_0095.JPG") fixed;
     background-size: 100%;
     opacity: 0.4;
@@ -52,10 +51,6 @@
     display: block;
 }
 
-.left {
-    left: 0rem;
-}
-
 .menu {
     top: 1.8rem;
     list-style-type: none;
@@ -95,16 +90,9 @@
 }
 
 aside {
-    height: 100%;
-    overflow: auto;
-    left: 0rem;
     width: 5.4rem;
     z-index: 1;
     transition: 0.5s;
-    background-color: #0d0d0d;
-    top: 0rem;
-    position: fixed;
-    color: #f2f2e2;
 }
 
 body {
@@ -113,12 +101,14 @@ body {
 
 nav {
     height: 5.4rem;
-    overflow: auto;
     z-index: 2;
 }
 
+aside, #background {
+    height: 100%;
+}
+
 nav, #background {
-    left: 0rem;
     width: 100%;
 }
 
@@ -126,18 +116,28 @@ nav, .button, .content {
     transition: 0.5s;
 }
 
-nav, .button, .dropdown {
+
+
+aside, nav {
+    overflow: auto;
+}
+
+aside, nav, .button, .dropdown {
     background-color: #0d0d0d;
 }
 
-nav, .button, .label {
+aside, nav, .button, .label {
     color: #f2f2e2;
 }
 
-nav, .button, .title, #background {
+aside, nav, .button, .title, #background {
     position: fixed;
 }
 
-nav, .hide-top, .quote, .top-unhide, #background {
+aside, nav, .hide-top, .quote, .top-unhide, #background {
     top: 0rem;
+}
+
+aside, nav, .left, #background {
+    left: 0rem;
 }

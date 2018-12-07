@@ -92,7 +92,6 @@
 aside {
     width: 5.4rem;
     z-index: 1;
-    transition: 0.5s;
 }
 
 body {
@@ -112,12 +111,12 @@ nav, #background {
     width: 100%;
 }
 
-nav, .button, .content {
-    transition: 0.5s;
-}
-
 aside, nav {
     overflow: auto;
+}
+
+aside, nav, .button, .content {
+    transition: 0.5s;
 }
 
 aside, nav, .button, .dropdown {

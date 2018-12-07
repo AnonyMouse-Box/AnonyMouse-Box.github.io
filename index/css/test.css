@@ -116,8 +116,6 @@ nav, .button, .content {
     transition: 0.5s;
 }
 
-
-
 aside, nav {
     overflow: auto;
 }

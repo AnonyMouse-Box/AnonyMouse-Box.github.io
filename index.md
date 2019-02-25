@@ -20,9 +20,6 @@ This page is powered by Jekyll and the GitHub repository, it allows me to add us
 
 [Root Site](http://hogwash.ga/)
 
-
 Check out my other projects:
-
-[Code Can](http://github.hogwash.ga/code-can)
-
-[Akorn](http://github.hogwash.ga/akorn)
+* [Code Can](http://github.hogwash.ga/code-can)
+* [Akorn](http://github.hogwash.ga/akorn)

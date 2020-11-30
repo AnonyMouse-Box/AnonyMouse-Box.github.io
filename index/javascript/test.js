@@ -57,6 +57,6 @@ function toTop() {
     document.documentElement.scrollTop = 0;
 }
 
-function submitForm() {
-    document.getElementById("response").innerHTML = document.getElementById("frm1").submit();
+function submitForm(input) {
+    document.getElementById("response").innerHTML = input;
 }

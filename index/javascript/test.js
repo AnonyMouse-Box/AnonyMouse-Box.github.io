@@ -58,6 +58,5 @@ function toTop() {
 }
 
 function submitForm() {
-    document.getElementById("frm1").submit();
-    window.alert('Flag!');
+    document.getElementById("response").innerHTML = document.getElementById("frm1").submit();
 }

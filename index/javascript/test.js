@@ -58,6 +58,5 @@ function toTop() {
 }
 
 function submitForm() {
-    let input = document.getElementById("frm1").submit();
-    document.getElementById("response").innerHTML = input;
+    document.getElementById("response").innerHTML = document.getElementById("frm1").submit();
 }

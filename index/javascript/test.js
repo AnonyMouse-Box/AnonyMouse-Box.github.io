@@ -59,4 +59,5 @@ function toTop() {
 
 function submitForm() {
     document.getElementById("frm1").submit();
+    window.alert('Flag!');
 }

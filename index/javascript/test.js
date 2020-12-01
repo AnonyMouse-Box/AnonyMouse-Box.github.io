@@ -59,7 +59,7 @@ function toTop() {
 
 function validateForm() {
     var input = document.forms["flagForm"]["flag"].value;
-    var re = /^(?:\s|)(?:OUCSS(?:{|)|)((?:[\S])*)(?:\s|)(?:}(?:{. *}|)|)(?:\s|)$/;
+    var re = /^(?:\s|)(?:OUCSS(?:{|)|)(?:[\S])*(?:\s|)(?:}(?:{. *}|)|)(?:\s|)$/;
     if (re.test(input) == false) {
       alert("Invalid entry");
       return false;

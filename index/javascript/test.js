@@ -59,9 +59,8 @@ function toTop() {
 
 function validateForm() {
     var input = document.forms["flagForm"]["flag"].value;
-    var re = /^(?:\s|)(?:OUCSS(?:{|)|)((?:[\S])*)(?:}(?:{. *}|)|)(?:\s|)$/;
-    var match = re.exec(input);
-    if (match[1] == "") {
+    var re = /^(?:\s|)(?:OUCSS(?:{|)|)((?:[\S])*)(?:\s|)(?:}(?:{. *}|)|)(?:\s|)$/;
+    if (re.test(input) == false) {
       alert("Invalid entry");
       return false;
     }

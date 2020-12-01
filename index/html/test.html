@@ -67,8 +67,8 @@
    </aside>
    <div class="content hide-side">
     <br /><br />
-    <form onsubmit="validateForm()" method="post">
-     <input type="text" value="Flag" id="flag" name="flag">
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+     <input type="text" value="Flag" name="flag">
      <input type="submit" value="Submit">
     </form>
     <br />

@@ -62,7 +62,7 @@ function validateForm() {
     var re = /^(?:\s|)(?:OUCSS(?:{|)|)((?:[\S])*)(?:\s|)(?:}(?:{. *}|)|)(?:\s|)$/;
     var match = re.exec(input)
     var response = document.getElementById("response")
-    if (match == false || match[1] == false) {
+    if (match == null || match[1] == false) {
         response.setAttribute("style", "color:red;")
         response.innerHTML = "invalid entry";
         return false;

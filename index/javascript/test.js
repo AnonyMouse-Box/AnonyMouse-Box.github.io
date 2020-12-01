@@ -61,7 +61,7 @@ function validateForm() {
     var input = document.forms["flagForm"]["flag"].value;
     var re = /^(?:\s|)(?:OUCSS(?:{|)|)((?:[\S])*)(?:\s|)(?:}(?:{. *}|)|)(?:\s|)$/;
     var match = re.exec(input)
-    if (re.test(input) == false || match[1] == "") {
+    if (match[1] == false) {
       document.getElementsById("response").innerHTML = "invalid entry";
       return false;
     }

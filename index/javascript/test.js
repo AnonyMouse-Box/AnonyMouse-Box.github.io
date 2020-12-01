@@ -62,7 +62,7 @@ function validateForm() {
     var re = /^(?:\s|)(?:OUCSS(?:{|)|)((?:[\S])*)(?:\s|)(?:}(?:{. *}|)|)(?:\s|)$/;
     var match = re.exec(input)
     if (match[1] == false) {
-      alert("invalid entry");
+      document.getElementById("response").innerHTML = "invalid entry";
       return false;
     }
 }

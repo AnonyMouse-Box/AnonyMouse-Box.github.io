@@ -57,6 +57,12 @@ function toTop() {
     document.documentElement.scrollTop = 0;
 }
 
-function submitForm(input) {
-    document.getElementById("response").innerHTML = input;
+function validateForm() {
+    var input = document.forms["myForm"]["flag"].value;
+    var re = /^(?:\s|)(?:OUCSS(?:{|)|)((?:[\S])*)(?:}(?:{. *}|)|)(?:\s|)$/;
+    var match = re.exec(input);
+    if (match[1] == "") {
+      alert("Invalid entry");
+      return false;
+    }
 }

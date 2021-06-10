@@ -51,12 +51,11 @@ iframe {
 
 /* Left and right column */
 .column.side {
-  width: 121.867rem;
+  width: 7.617rem;
 }
 
 /* Middle column */
 .column.middle {
-  width: 50%;
   padding: 0rem;
 }
 

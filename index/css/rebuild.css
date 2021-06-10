@@ -2,8 +2,17 @@ body {
   margin: 0;
 }
 
+iframe {
+  border: none;
+}
+
 .header {
   background-color: #f1f1f1;
   padding: 20px;
   text-align: center;
+}
+
+.site {
+  height: 100%;
+  width: 100%;
 }

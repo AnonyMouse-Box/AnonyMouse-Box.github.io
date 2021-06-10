@@ -7,7 +7,7 @@ This page is powered by Jekyll and the GitHub repository, it allows me to add us
 * [javascript](https://anonymouse-box.github.io/index/html/javascript)
 * [tiddlywiki](https://anonymouse-box.github.io/index/html/tiddlywiki)
 * [generic](https://anonymouse-box.github.io/index/html/test)
-* [rebuild](https://anonymouse-box.github.io/index/html/test)
+* [rebuild](https://anonymouse-box.github.io/index/html/rebuild)
 
 
 **Blog Posts**

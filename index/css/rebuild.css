@@ -43,20 +43,27 @@ iframe {
   color: black;
 }
 
-/* Create three unequal columns that floats next to each other */
+/* Set up default column */
 .column {
-  float: left;
-  padding: 0.625rem;
+  
 }
 
-/* Left and right column */
+/* Side panels */
 .column.side {
-  width: 7.617rem;
+  color: #f2f2f2;
+  background-color: #333;
+  padding: 0.625rem;
 }
 
 /* Middle column */
 .column.middle {
-  padding: 0rem;
+  
+}
+
+/* Set up grid */
+.row {
+  display: grid;
+  grid-template-columns: 7.617rem auto 7.617rem;
 }
 
 /* Clear floats after the columns */

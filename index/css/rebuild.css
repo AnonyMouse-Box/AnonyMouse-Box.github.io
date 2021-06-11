@@ -43,24 +43,12 @@ iframe {
   color: black;
 }
 
-/* Set up default column 
-.column {
-  
-}
-*/
-
 /* Side panels */
-.column.side {
+.side {
   color: #f2f2f2;
   background-color: #333;
   padding: 0.625rem;
 }
-
-/* Middle column
-.column.middle {
-  
-}
-*/
 
 /* Set up grid */
 .row {

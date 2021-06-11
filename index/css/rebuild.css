@@ -65,7 +65,7 @@ iframe {
 /* Set up grid */
 .row {
   display: grid;
-  grid-template-columns: 10.554rem auto 9.929rem;
+  grid-template-columns: 10.554rem auto 9.554rem;
 }
 
 /* Clear floats after the columns */

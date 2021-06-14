@@ -74,6 +74,7 @@ iframe {
 /* Configure the central frame */
 .site {
   width: 100%;
+  height: 100%;
 }
 
 /* Style the footer */

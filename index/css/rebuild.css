@@ -85,9 +85,15 @@ iframe {
   text-align: center;
 }
 
-:target {
-  width: 100px;
-  transition-property: width;
-  transition-duration: 2s;
+header, footer {
+  height: 0px;
+  transition: height 2s;
+}
+
+#top, #bottom, #left, #right {
   transition-timing-function: ease-in-out;
+}
+
+header:target, footer:target {
+  height: inherit;
 }

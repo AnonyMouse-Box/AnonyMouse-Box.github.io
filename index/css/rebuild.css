@@ -17,7 +17,6 @@ iframe {
 .header {
   color: #f2f2f2;
   background-color: #333;
-  padding: 1.25rem;
   text-align: center;
 }
 
@@ -85,15 +84,24 @@ iframe {
   text-align: center;
 }
 
-header, footer {
+.header, .footer {
   height: 0px;
-  transition: height 2s;
+  padding: 0px;
+  transition: height 2s ease-in-out 0s, padding 2s ease-in-out 0s;
 }
 
-#top, #bottom, #left, #right {
-  transition-timing-function: ease-in-out;
+.header h1, .footer h1 {
+  visibility: hidden;
+  margin: 0px;
+  transition: visibility 0s, margin 2s ease-in-out 0s;
 }
 
-header:target, footer:target {
+.header:target, .footer:target {
   height: inherit;
+  padding: 1.25rem;
+}
+
+.header:target h1, .footer:target h1 {
+  visibility: visible;
+  margin: inherit;
 }

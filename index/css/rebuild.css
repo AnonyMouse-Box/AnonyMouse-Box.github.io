@@ -86,5 +86,8 @@ iframe {
 }
 
 :target {
-  background-color: #e5eecc;
+  width: 100px;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
 }

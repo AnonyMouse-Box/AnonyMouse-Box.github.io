@@ -80,28 +80,29 @@ iframe {
 .footer {
   color: #f2f2f2;
   background-color: #333;
-  padding: 1.25rem;
   text-align: center;
 }
 
 .header, .footer {
-  height: 0px;
-  padding: 0px;
-  transition: height 2s ease-in-out 0s, padding 2s ease-in-out 0s;
+  height: 0rem;
+  padding: 0rem;
+  transition: height 2s ease-in-out 0.1s, padding 2s ease-in-out 0.1s;
 }
 
 .header h1, .footer h1 {
   visibility: hidden;
-  margin: 0px;
-  transition: visibility 0s, margin 2s ease-in-out 0s;
+  opacity: 0;
+  margin: 0rem;
+  transition: opacity 2s ease-in-out 0.1s, margin 2s ease-in-out 0.1s, visibility 0.1s ease-in-out 0s;
 }
 
 .header:target, .footer:target {
-  height: inherit;
+  height: calc(7.6166875rem);
   padding: 1.25rem;
 }
 
 .header:target h1, .footer:target h1 {
   visibility: visible;
-  margin: inherit;
+  opacity: 1;
+  margin: 1.34rem;
 }

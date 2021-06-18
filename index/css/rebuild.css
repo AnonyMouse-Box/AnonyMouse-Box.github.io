@@ -29,12 +29,16 @@ iframe {
   color: #f2f2f2;
   background-color: #333;
   text-align: center;
+  grid-row-start: 1;
+  grid-column: 1 / span 3;
 }
 
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #333;
+  grid-row-start: 2;
+  grid-column: 1 / span 3;
 }
 
 /* Style the topnav links */
@@ -62,28 +66,22 @@ iframe {
 
 /* Set up grid */
 .middle {
-  
+  grid-row-start: 3
 }
 
-/* Clear floats after the columns */
-.middle:after {
-  content: "";
-  display: table;
-  clear: both;
+#left {
+  grid-column-start: 1;
 }
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other 
-@media screen and (max-width: 37.5rem) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-}
-*/
 
 /* Configure the central frame */
 .site {
   width: 100%;
   height: 100%;
+  grid-column-start: 2;
+}
+
+#right {
+  grid-column-start: 3;
 }
 
 /* Style the footer */
@@ -91,6 +89,15 @@ iframe {
   color: #f2f2f2;
   background-color: #333;
   text-align: center;
+  grid-row-start: 4;
+  grid-column: 1 / span 3;
+}
+
+/* Clear floats after the columns */
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .header, .footer {

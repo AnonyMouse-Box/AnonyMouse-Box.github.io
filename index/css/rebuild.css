@@ -13,6 +13,10 @@ iframe {
   border: none;
 }
 
+.middle {
+  display: grid;
+}
+
 /* Style the header */
 .header {
   color: #f2f2f2;
@@ -50,13 +54,12 @@ iframe {
 }
 
 /* Set up grid */
-.row {
-  display: grid;
+.middle {
   grid-template-columns: calc(7.6166875rem + 2.9375rem) auto calc(7.6166875rem + 2.9375rem - 1rem);
 }
 
 /* Clear floats after the columns */
-.row:after {
+.middle:after {
   content: "";
   display: table;
   clear: both;

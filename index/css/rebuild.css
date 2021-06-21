@@ -97,7 +97,13 @@ iframe {
   transition: height 2s ease-in-out 0.1s, padding 2s ease-in-out 0.1s;
 }
 
-.header h1, .footer h1 {
+.left, .right {
+  height: 0rem;
+  padding: 0rem;
+  transition: width 2s ease-in-out 0.1s, padding 2s ease-in-out 0.1s;
+}
+
+.header h1, .footer h1, .left h1, .right h1 {
   visibility: hidden;
   opacity: 0;
   margin: 0rem;
@@ -109,7 +115,12 @@ iframe {
   padding: 1.25rem;
 }
 
-.header:target h1, .footer:target h1 {
+.left:target, .right:target {
+  width: calc(7.6166875rem);
+  padding: 1.25rem;
+}
+
+.header:target h1, .footer:target h1, .left:target h1, .right:target h1 {
   visibility: visible;
   opacity: 1;
   margin: 1.34rem;

@@ -54,6 +54,10 @@ iframe {
   color: black;
 }
 
+a.align-right {
+  float: right;
+}
+
 /* Side panels */
 .side {
   color: #f2f2f2;

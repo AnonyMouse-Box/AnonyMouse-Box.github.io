@@ -103,7 +103,7 @@ iframe {
   transition: width 2s ease-in-out 0.1s, padding 2s ease-in-out 0.1s;
 }
 
-.header h1, .footer h1, .left h1, .right h1 {
+.header h1, .footer h1, .left h2, .right h2, .left p, .right p {
   visibility: hidden;
   opacity: 0;
   margin: 0rem;
@@ -120,7 +120,7 @@ iframe {
   padding: 1.25rem;
 }
 
-.header:target h1, .footer:target h1, .left:target h1, .right:target h1 {
+.header:target h1, .footer:target h1, .left:target h2, .right:target h2, .left p, .right p {
   visibility: visible;
   opacity: 1;
   margin: 1.34rem;

@@ -98,7 +98,7 @@ iframe {
 }
 
 .left, .right {
-  height: 0rem;
+  width: 0rem;
   padding: 0rem;
   transition: width 2s ease-in-out 0.1s, padding 2s ease-in-out 0.1s;
 }

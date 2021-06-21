@@ -124,7 +124,7 @@ a.align-right {
   padding: 1.25rem;
 }
 
-.header:target h1, .footer:target h1, .left:target h2, .right:target h2, .left p, .right p {
+.header:target h1, .footer:target h1, .left:target h2, .right:target h2, .left:target p, .right:target p {
   visibility: visible;
   opacity: 1;
   margin: 1.34rem;

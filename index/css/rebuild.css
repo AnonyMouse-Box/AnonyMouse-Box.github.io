@@ -17,8 +17,8 @@ iframe {
   position: fixed;
   width: 100%;
   display: grid;
-  grid-template-rows: auto auto auto auto;
-  grid-template-columns: auto auto auto;
+  grid-template-rows: max-content max-content auto max-content;
+  grid-template-columns: max-content auto max-content;
 }
 
 /* Style the header */

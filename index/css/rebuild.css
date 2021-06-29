@@ -57,7 +57,7 @@ iframe {
   color: black;
 }
 
-a.align-right {
+a.align-right, label.align-right {
   float: right;
 }
 

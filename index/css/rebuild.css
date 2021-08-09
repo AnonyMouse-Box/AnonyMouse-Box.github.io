@@ -113,7 +113,7 @@ a.align-right, label.align-right {
   transition: opacity 1.25s ease-in-out 0.8s, margin 2s ease-in-out 0.1s, visibility 0.1s ease-in-out 0s;
 }
 
-.header:target, .footer:target {
+#toggle:checked ~ .header, #toggle:checked ~ .footer {
   height: calc(7.6166875rem);
   padding: 1.25rem;
 }

@@ -118,6 +118,39 @@ a.align-right, label.align-right {
   transition: opacity 1.25s ease-in-out 0.8s, margin 2s ease-in-out 0.1s, visibility 0.1s ease-in-out 0s;
 }
 
+top-toggle:checked ~ .header, #bottom-toggle:checked ~ .footer {
+  height: calc(7.6166875rem);
+  padding: 1.25rem;
+}
+
+#left-toggle:checked ~ .left {
+  width: calc(7.6166875rem + 2.9375rem);
+  padding: 0.625rem;
+}
+
+#right-toggle:checked ~ .right {
+  width: calc(7.6166875rem + 2.9375rem - 1rem);
+  padding: 0.625rem;
+}
+
+#top-toggle:checked ~ .header h1, #bottom-toggle:checked ~ .footer h1 {
+  visibility: visible;
+  opacity: 1;
+  margin: 1.34rem 0rem;
+}
+
+#left-toggle:checked ~ .left h2, #right-toggle:checked ~ .right h2 {
+  visibility: visible;
+  opacity: 1;
+  margin: calc(1.245rem) 0rem;
+}
+
+#left-toggle:checked ~ .left p, #right-toggle:checked ~ .right p {
+  visibility: visible;
+  opacity: 1;
+  margin: 1rem 0rem;
+}
+
 /* Clear floats after the columns */
 .grid:after {
   content: "";

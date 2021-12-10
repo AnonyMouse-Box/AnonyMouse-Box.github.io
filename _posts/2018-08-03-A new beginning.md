@@ -1,3 +1,8 @@
+---
+categories: archive
+published: true
+---
+
 So, I've tweaked about my github repos a fair bit, everything has a much more slimmed down appearance. Although it's probably relatively easy to sort out when you know how, I decided not to bother trying to get gitea and github to talk to one another, passing updates and such.
 
 Instead I have opted to simply use the two accounts for different things, the gitea - on deskpotato for now - will hold all my personal projects since I can keep it private. Github on the other hand will handle all the public facing stuff to be shared.

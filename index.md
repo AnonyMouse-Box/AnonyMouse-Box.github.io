@@ -9,12 +9,6 @@
 <a href="https://github.enim.ga/tmcast"><div class="github-card" data-github="AnonyMouse-Box/tmcast" data-width="400" data-height="" data-theme="default"></div></a>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
-<script>
-    $(function() {
-        $('body').repo({ user: 'AnonyMouse-Box', name: 'akorn' })
-    });
-</script> 
+<div data="https://github.com/mackboudreau?tab=repositories" class="github-pinner" style="visibility: hidden;"></div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.min.js" />
-<script src="https://raw.githubusercontent.com/AnonyMouse-Box/akorn/master/repo.min.js" />
-
+<script src="d29mk5socxaj4o.cloudfront.net/GitHubPinner.js"></script>

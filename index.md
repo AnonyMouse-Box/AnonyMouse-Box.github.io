@@ -10,19 +10,7 @@ This page is powered by Jekyll and the GitHub repository, it allows me to add us
 * [rebuild](https://github.enim.ga/index/html/rebuild)
 
 
-**Blog Posts**
-{% for category in site.categories %}
-  {% if category[0] != "archive" %}
-  <h3>{{ category[0] }}</h3>
-  <ul>
-    {% for post in category[1] %}
-    {% unless post.categories contains "archive" %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endunless %}
-    {% endfor %}
-  </ul>
-{% endif %}
-{% endfor %}
+[Blog](https://github.enim.ga/blog)
 
 [Root Site](https://github.enim.ga/)
 

@@ -10,6 +10,7 @@
     {% for post in category[1] %}
     {% unless post.categories contains "archive" %}
       <li style="list-style-type: none;"><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <p>{{ post.excerpt }}</p>
     {% endunless %}
     {% endfor %}
   </ul>

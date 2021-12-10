@@ -7,3 +7,5 @@ Check out my projects:
 * [Code Can](https://github.enim.ga/code-can)
 * [Randy](https://github.enim.ga/randy)
 * [TmCast](https://github.enim.ga/tmcast)
+<div class="github-card" data-user="lepture" data-repo="github-cards"></div>
+<script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>

@@ -1,10 +1,8 @@
 [Blog](https://github.enim.ga/blog)
 
 # Welcome!
-
+<div class="github-card" data-user="AnonyMouse-Box"></div>
 Check out my projects:
 
 
-
-<div data="https://github.com/AnonyMouse-Box" class="github-pinner"></div>
-<script src="d29mk5socxaj4o.cloudfront.net/GitHubPinner.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>

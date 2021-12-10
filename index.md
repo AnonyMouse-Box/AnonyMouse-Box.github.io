@@ -7,5 +7,5 @@ Check out my projects:
 * [Code Can](https://github.enim.ga/code-can)
 * [Randy](https://github.enim.ga/randy)
 * [TmCast](https://github.enim.ga/tmcast)
-<div class="github-card" data-user="AnonyMouse-Box" data-repo="akorn"></div>
-<script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
+<div class="github-card" data-github="AnonyMouse-Box/randy" data-width="400" data-height="" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>

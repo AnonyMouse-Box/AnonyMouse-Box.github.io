@@ -1,3 +1,6 @@
+[Home](https://github.enim.ga/) |
+[Back to Blog](https://github.enim.ga/blog)
+
 # Archive
 ###### Old blog posts
 <ul>
@@ -9,6 +12,3 @@
     {% endif %}
   {% endfor %}
 </ul>
-
-[Back to Blog](https://github.enim.ga/blog)
-[Home](https://github.enim.ga/)

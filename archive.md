@@ -1,11 +1,9 @@
 # Archive
 ###### Old blog posts
-{% for category in site.categories %}
-  {% if category == "archive" %}
-    <ul>
-      {% for post in category[1] %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-{% endfor %}
+<ul>
+  {% for post in site.posts %}
+    {% if post.categories contains archive %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -1,3 +1,6 @@
+[Home](https://github.enim.ga/) |
+[Archive](https://github.enim.ga/archive)
+
 # Blog
 ###### posts
 {% for category in site.categories %}
@@ -12,6 +15,3 @@
   </ul>
 {% endif %}
 {% endfor %}
-
-[Archive](https://github.enim.ga/archive)
-[Home](https://github.enim.ga/)

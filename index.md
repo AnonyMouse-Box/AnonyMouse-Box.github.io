@@ -11,10 +11,10 @@
 
 <script>
     $(function() {
-        $('body').repo({ user: 'AnonyMouse-Box', name: 'Repo.js' })
+        $('body').repo({ user: 'AnonyMouse-Box', name: 'akorn' })
     });
 </script> 
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" />
-<script src="https://raw.githubusercontent.com/darcyclarke/Repo.js/master/repo.min.js" />
+<script src="https://raw.githubusercontent.com/AnonyMouse-Box/akorn/master/repo.min.js" />
 

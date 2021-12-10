@@ -1,3 +1,8 @@
+---
+categories: archive
+published: true
+---
+
 Okay lets try an experimental new thing, a different kind of post with a new aim. I recently embarked upon an interesting endeavour, looking at new ideas as a means to secure a server. Having recently begun using Kali Linux for it's penetration testing tools I decided I could use a machine for building custom tools on.
 
 Initially I figured, I'll just run up a VM using VirtualBox and play with it in there. The process started off easy enough and before I knew it I was installing my distro, everything seemed fine, however I hadn't counted on how much Windows is a resource hog these days. It turned out I was so short on resources setting up the partitions for the disk took 1 and a half days! When it promptly crashed during the next phase it became blindingly obvious I was going to need a better solution.

@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Archive"
+permalink: /archive
+---
+
 # Archive
 ###### Old blog posts
 <ul>

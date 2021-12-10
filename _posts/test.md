@@ -2,6 +2,7 @@
 categories: archive
 published: true
 date: 2018-08-01
+author: AnonyMouse
 ---
 
 So here I am, testing the blog post functionality, and it has to be said, Jekyll is rather weird. A lot less editing of code though, so easier for the average person, except for the small fact that learning code is exactly why I came the github!

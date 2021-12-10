@@ -10,5 +10,5 @@ Check out my projects:
 <div class="github-card" data-github="AnonyMouse-Box/akorn" data-width="400" data-height="" data-theme="default"></div>
 <div class="github-card" data-github="AnonyMouse-Box/code-can" data-width="400" data-height="" data-theme="default"></div>
 <div class="github-card" data-github="AnonyMouse-Box/randy" data-width="400" data-height="" data-theme="default"></div>
-<div class="github-card" data-github="AnonyMouse-Box/tm-cast" data-width="400" data-height="" data-theme="default"></div>
+<div class="github-card" data-github="AnonyMouse-Box/tmcast" data-width="400" data-height="" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>

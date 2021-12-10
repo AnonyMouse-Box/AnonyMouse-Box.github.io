@@ -1,7 +1,6 @@
 ---
 categories: archive
 published: true
-date: 2018-08-03
 author: AnonyMouse
 ---
 

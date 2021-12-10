@@ -1,5 +1,6 @@
 # Archive
 ###### Old blog posts
+
 {% for category in site.categories %}
   <h3>{{ tag[0] }}</h3>
   <ul>

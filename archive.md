@@ -1,5 +1,3 @@
-layout: page
-title: "Archive"
-permalink: /archive/
-
-test2
+# Archive
+## Old blog posts
+test3

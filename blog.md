@@ -9,7 +9,7 @@
   <ul>
     {% for post in category[1] %}
     {% unless post.categories contains "archive" %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li style="list-style-type: none;"><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endunless %}
     {% endfor %}
   </ul>

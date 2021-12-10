@@ -1,3 +1,8 @@
+---
+categories: archive
+published: true
+---
+
 I'm back! So you may have noticed regarding this webpage I have started using Jekyll, this is all part of a plan to use more of the tools commonly available on GitHub.
 
 The layout and appearance is rather simple at the moment, I'm hoping to play more with that later. The mainstay of the idea is there though, underneath the obvious titles I have included a list of each of the test webpages I'm working with, I'll try to keep their titles fairly descriptive.

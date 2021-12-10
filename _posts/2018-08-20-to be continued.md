@@ -1,6 +1,8 @@
 ---
 categories: archive
 published: true
+date: 2018-08-20
+author: AnonyMouse
 ---
 
 I'm back! So you may have noticed regarding this webpage I have started using Jekyll, this is all part of a plan to use more of the tools commonly available on GitHub.

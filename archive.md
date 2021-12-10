@@ -3,8 +3,8 @@
 <ul>
   {% for post in site.posts %}
     {% if post.categories contains "archive" %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }} - <small>{{ post.date | date_to_string }}</small></a>
+      <li style="list-style-type: none;">
+        <a href="{{ post.url }}"><small>{{ post.date | date_to_string }}</small> - {{ post.title }}</a>
       </li>
     {% endif %}
   {% endfor %}

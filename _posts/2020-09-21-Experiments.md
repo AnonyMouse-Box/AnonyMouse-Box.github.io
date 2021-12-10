@@ -1,6 +1,7 @@
 ---
 categories: archive
 published: true
+author: AnonyMouse
 ---
 
 Okay lets try an experimental new thing, a different kind of post with a new aim. I recently embarked upon an interesting endeavour, looking at new ideas as a means to secure a server. Having recently begun using Kali Linux for it's penetration testing tools I decided I could use a machine for building custom tools on.

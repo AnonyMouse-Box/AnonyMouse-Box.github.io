@@ -1,6 +1,8 @@
 ---
 categories: archive
 published: true
+date: 2018-08-01
+author: AnonyMouse
 ---
 
 So, I've tweaked about my github repos a fair bit, everything has a much more slimmed down appearance. Although it's probably relatively easy to sort out when you know how, I decided not to bother trying to get gitea and github to talk to one another, passing updates and such.

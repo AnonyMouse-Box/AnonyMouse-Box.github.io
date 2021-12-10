@@ -12,8 +12,6 @@ This page is powered by Jekyll and the GitHub repository, it allows me to add us
 
 [Blog](https://github.enim.ga/blog)
 
-[Root Site](https://github.enim.ga/)
-
 Check out my other projects:
 * [Akorn](https://github.enim.ga/akorn)
 * [Code Can](https://github.enim.ga/code-can)

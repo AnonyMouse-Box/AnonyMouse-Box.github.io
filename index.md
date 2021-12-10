@@ -16,7 +16,9 @@ This page is powered by Jekyll and the GitHub repository, it allows me to add us
   <h3>{{ category[0] }}</h3>
   <ul>
     {% for post in category[1] %}
+    {% if post.categories does not contain "archive" %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
     {% endfor %}
   </ul>
 {% endif %}

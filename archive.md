@@ -1,1 +1,3 @@
-test
+layout: page
+title: "Archive"
+permalink: /archive/

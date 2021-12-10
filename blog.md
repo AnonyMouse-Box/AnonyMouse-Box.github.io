@@ -14,3 +14,4 @@
 {% endfor %}
 
 [Archive](https://github.enim.ga/archive)
+[Home](https://github.enim.ga/)

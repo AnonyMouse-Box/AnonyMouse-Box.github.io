@@ -1,3 +1,5 @@
+[Blog](https://github.enim.ga/blog)
+
 # Welcome!
 
 This page is powered by Jekyll and the GitHub repository, it allows me to add useful links and multiple test pages to assist in web development.
@@ -8,9 +10,6 @@ This page is powered by Jekyll and the GitHub repository, it allows me to add us
 * [tiddlywiki](https://github.enim.ga/index/html/tiddlywiki)
 * [generic](https://github.enim.ga/index/html/test)
 * [rebuild](https://github.enim.ga/index/html/rebuild)
-
-
-[Blog](https://github.enim.ga/blog)
 
 Check out my other projects:
 * [Akorn](https://github.enim.ga/akorn)

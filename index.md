@@ -9,6 +9,7 @@
 <a href="https://github.enim.ga/tmcast"><div class="github-card" data-github="AnonyMouse-Box/tmcast" data-width="400" data-height="" data-theme="default"></div></a>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
-<div data="https://github.com/mackboudreau?tab=repositories" class="github-pinner" style="visibility: hidden;"></div>
 
 <script src="d29mk5socxaj4o.cloudfront.net/GitHubPinner.js"></script>
+<div data="https://github.com/AnonyMouse-Box?tab=repositories" class="github-pinner"></div>
+

@@ -11,7 +11,7 @@ This page is powered by Jekyll and the GitHub repository, it allows me to add us
 
 
 **Blog Posts**
-{{% for category in site.categories %}
+{% for category in site.categories %}
   <h3>{{ category[0] }}</h3>
   <ul>
     {% for post in category[0] %}

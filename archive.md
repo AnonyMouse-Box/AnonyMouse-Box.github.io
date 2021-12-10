@@ -1,6 +1,8 @@
 ---
+theme: jekyll-theme-slate
 layout: page
 title: "Archive"
+description: "Old blog posts"
 permalink: /archive
 ---
 

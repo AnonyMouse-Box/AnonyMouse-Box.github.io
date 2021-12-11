@@ -1,4 +1,5 @@
-[Enim.ga](https://enim.ga/) | [Blog](https://github.enim.ga/blog)
+[Enim.ga](https://enim.ga/) |
+[Blog](https://github.enim.ga/blog)
 
 # Welcome!
 

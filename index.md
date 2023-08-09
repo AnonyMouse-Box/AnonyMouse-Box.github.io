@@ -1,5 +1,5 @@
-[Enim.ga](https://enim.ga/) |
-[Blog](https://github.enim.ga/blog)
+[Command Shell](https://cmdshell.uk/) |
+[Blog](https://github.cmdshell.uk/blog)
 
 # Welcome!
 
@@ -9,9 +9,9 @@ Yep, that's me, this entire hub is built on Github Pages. It makes it nice and e
 
 
 Check out my projects:
-* [Akorn](https://github.enim.ga/akorn)
-* [Code Can](https://github.enim.ga/code-can)
-* [Randy](https://github.enim.ga/randy)
-* [TmCast](https://github.enim.ga/tmcast)
+* [Akorn](https://github.cmdshell.uk/akorn)
+* [Code Can](https://github.cmdshell.uk/code-can)
+* [Randy](https://github.cmdshell.uk/randy)
+* [TmCast](https://github.cmdshell.uk/tmcast)
 
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>

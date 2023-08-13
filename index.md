@@ -1,5 +1,4 @@
-[Command Shell](https://cmdshell.uk/grav/en) |
-[Blog](https://github.cmdshell.uk/blog)
+[Command Shell](https://cmdshell.uk/grav/en)
 
 # Welcome!
 

@@ -1,5 +1,5 @@
-[Home](https://github.enim.ga/) |
-[Back to Blog](https://github.enim.ga/blog)
+[Home](https://github.cmdshell.uk/) |
+[Back to Blog](https://github.cmdshell.uk/blog)
 
 # Archive
 ###### Old blog posts

@@ -9,7 +9,7 @@ Yep, that's me, this entire hub is built on Github Pages. It makes it nice and e
 
 
 Check out my projects:
-* [Akorn](https://cmdshell.uk/dev/akorn)
+* [Akorn](https://cmdshell.uk/akorn)
 * [Code Can](https://github.cmdshell.uk/code-can)
 * [Randy](https://github.cmdshell.uk/randy)
 * [TmCast](https://github.cmdshell.uk/tmcast)

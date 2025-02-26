@@ -4,7 +4,7 @@
 
 <div class="github-card" data-user="AnonyMouse-Box"></div>
 
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script><div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="VERTICAL" data-vanity="keith-clayton" data-version="v1"></div>
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="VERTICAL" data-vanity="keith-clayton" data-version="v1"></div>
               
               
 
@@ -21,3 +21,4 @@ Check out my projects:
 * [TmCast](https://github.cmdshell.uk/tmcast)
 
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>

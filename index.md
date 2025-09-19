@@ -23,6 +23,7 @@ Check out my projects:
 I also have some external repos on a personal system:
 * [TOTAL](https://downbox.co.uk/gitlab/AnonyMouse/total)
 * [PorkBrainz](https://downbox.co.uk/gitlab/AnonyMouse/porkbrainz)
+* [Nexus](https://downbox.co.uk/gitlab/AnonyMouse/nexus)
 
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
